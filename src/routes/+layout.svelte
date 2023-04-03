@@ -5,6 +5,8 @@
                 <h3>My website</h3>
                 <a href="/">Home</a>
                 <p>|</p>
+                <!-- <a href="/about">About</a>
+                     <p>|</p> -->
                 <a href="https://github.com/NamesCode">Github</a>
                 <p>|</p>
                 <a href="https://github.com/NamesCode/.Dotfiles">.Dotfiles</a>
@@ -28,6 +30,7 @@
  }
  html {
      background-image: url('stars.gif');
+     scrollbar-color: #f38ba8 #11111b
  }
  .card {
      background-color: #181825;
@@ -41,7 +44,7 @@
      text-align: justify;
  }
  .garf_line {
-     background-image: url('garf_line2.gif');
+     background-image: url('garf_line.gif');
      background-repeat: repeat-x;
      height: 2rem;
  }
