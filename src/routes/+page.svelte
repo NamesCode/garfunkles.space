@@ -9,32 +9,24 @@
 <body>
     <div class="card" id="main-panel">
         <div class="padded">
-            <div class="name">
+            <div class="heading">
                 <img src="garfpfp.png" alt="PFP" height=90px width=90px>
-                <h1>Name</h1>
+                <h1>Heading</h1>
                 <hr>
             </div>
             <div style="clear:both;"></div>
             <div class="content">
-                <img src="Apple_Computer_Logo_rainbow.svg"
-                     height="200px"
-                     width="200px"
-                     alt="Apple logo"
-                     style="float: right;"/>
-                <p>Hallo, Welcome to my webpage!</p>
-                <p>For the reasons of privacy I go under the pseudo names "Name" or "Garfunkle" online :)</p>
-                <p></p>
+                <p>Text</p>
             </div>
         </div>
     </div>
     <div id="side-panel">
         <div class="card">
-            <h1 style="padding-left: 15px;">Socials</h1>
+            <h1 style="padding-left: 15px;">Side heading</h1>
             <hr>
-            <ul>Twitter: @NameIsALoser</ul>
-            <ul>Email: <a  href="mailto:namesexistsinemails@gmail.com">namesexistsinemails@gmail.com</a></ul>
-            <ul>Discord: NameExists#3898</ul>
+            <p>Text</p>
         </div>
+    </div>
 </body>
 
 
@@ -53,15 +45,19 @@
      width: 20%;
      padding-right: 24px;
  }
+ #side-panel h1 {
+     padding-right: 10px;
+     padding-bottom: 5px;
+ }
  #main-panel {
      width: 77%;
      padding-bottom: 1vw;
  }
- ul {
-     padding: 0;
+ #side-panel p {
+     padding-top: 15px;
      padding-left: 1vw;
      font-family: "Lucida Console", "Courier New", monospace;
-     padding-right: 1vw;
+     color: #bac2de;
  }
  .card {
      background-color: #181825;
@@ -73,9 +69,6 @@
  .content {
      max-width: 60%;
      margin: auto;
- }
- ul {
-     color: #bac2de;
  }
  p {
      margin-top: -20px;
@@ -101,13 +94,13 @@
      font-weight: normal;
      font-family: "Rockwell", serif;
  }
- .name {
+ .heading {
      padding-top: 1vw;
  }
- .name img {
+ .heading img {
      float: left;
  }
- .name img {
+ .heading img {
      border-radius: 20%;
      padding-right: 7.5px;
  }
