@@ -1,3 +1,7 @@
+<script>
+    import "../styles.css"
+</script>
+
 <html lang="en-GB">
     <body>
         <div class="card" style="float: left; width: 100%;">
@@ -5,9 +9,11 @@
                 <h3>My website</h3>
                 <a href="/">Home</a>
                 <p>|</p>
-                <!-- <a href="/about">About</a>
-                     <p>|</p> -->
+                <a href="/about">About</a>
+                <p>|</p>
                 <a href="https://github.com/NamesCode">Github</a>
+                <p>|</p>
+                <a href="https://gitlab.com/NamesCode">Gitlab</a>
                 <p>|</p>
                 <a href="https://github.com/NamesCode/.Dotfiles">.Dotfiles</a>
                 <p>|</p>
@@ -20,25 +26,11 @@
 </html>
 
 <style>
- a {
-     color: #f38ba8;
-     text-decoration: none;
-     font-family: "Lucida Console", "Courier New", monospace;
- }
- a:hover {
-     color: #eba0ac;
- }
  html {
      background-image: url('stars.gif');
      scrollbar-color: #f38ba8 #11111b
  }
- .card {
-     background-color: #181825;
-     border: 2.5px solid #f38ba8;
-     border-radius: 5px;
-     margin-bottom: 5px;
- }
- p, h3 {
+ h3 {
      color: #bac2de;
      font-family: "Lucida Console", "Courier New", monospace;
      text-align: justify;
