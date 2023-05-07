@@ -1,7 +1,17 @@
 <script>
- import { marked } from 'marked';
- const url = 'https://raw.githubusercontent.com/sveltejs/kit/master/README.md';
+ // var markdownSrc = '$lib/md/about.md';
+ import { page } from '$app/stores';
+ import { onMount } from 'svelte';
+ import { mdsvex } from 'mdsvex';
+ import About from './about.md';
+
+ // let url = ``;
+ // onMount(() => url = window.location.href);
+ // url = url.toString().replace("http://localhost:5173/about", "");
+
+ let markdownSrc = `{$page.url.pathname}.md`;
 </script>
+
 
 <body>
     <div class="card" id="main-panel">
@@ -13,18 +23,12 @@
             </div>
             <div style="clear:both;"></div>
             <div class="content">
-                <!-- <img src="Apple_Computer_Logo_rainbow.svg"
-                     height="200px"
-                     width="200px"
-                     alt="Apple logo"
-                     style="float: right;"/> -->
-                <p>Hallo, Welcome to my webpage!</p>
-                <p>For the reasons of privacy I go under the pseudo names "Name" or "Garfunkle" online</p>
-
-                <p>{#await fetch(url).then(r => r.text()) then text}
-                    {@html marked(text)}
-                {/await}
-                </p>
+                <!-- <p>Hallo, Welcome to my webpage!</p>
+                     <p>For the reasons of privacy I go under the pseudo names "Name" or "Garfunkle" online</p>
+                     <p>Current URL: {$page.url.pathname}</p> -->
+                <main>
+                    <About />
+                </main>
             </div>
         </div>
     </div>
@@ -33,15 +37,15 @@
             <h1 style="padding-left: 15px;">Socials</h1>
             <hr>
             <ul>Twitter: @NameIsALoser</ul>
-            <ul>Email: <a  href="mailto:namesexistsinemails@gmail.com">namesexistsinemails@gmail.com</a></ul>
+            <ul>Email: <a href="mailto:lasagna@garfunkles.space">lasagna@garfunkles.space</a></ul>
             <ul>Discord: NameExists#3898</ul>
         </div>
 </body>
 
 
 <style>
- p {
-     margin-top: -20px;
+ main {
+     margin-top: -2.5em;
 	 padding-top: 0.5em;
  }
  #side-panel {

@@ -23,6 +23,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-markdown": "^0.2.3"
+		"mdsvex": "^0.10.6"
 	}
 }

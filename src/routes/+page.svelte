@@ -31,14 +31,6 @@
 
 
 <style>
- a {
-     color: #f38ba8;
-     text-decoration: none;
-     font-family: "Lucida Console", "Courier New", monospace;
- }
- a:hover {
-     color: #eba0ac;
- }
  #side-panel {
      float: right;
      /* padding-left: 1vw; */
