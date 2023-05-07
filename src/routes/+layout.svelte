@@ -6,7 +6,7 @@
     <body>
         <div class="card" style="float: left; width: 100%;">
             <div class="navbar">
-                <h3>My website</h3>
+                <h3>Garfunkles.space</h3>
                 <a href="/">Home</a>
                 <p>|</p>
                 <a href="/about">About</a>
@@ -17,7 +17,7 @@
                 <p>|</p>
                 <a href="https://github.com/NamesCode/.Dotfiles">.Dotfiles</a>
                 <p>|</p>
-                <a href="">Source code</a>
+                <a href="https://git.garfunkles.space">Source code</a>
             </div>
         </div>
         <div style="clear:both;"></div>
@@ -28,7 +28,6 @@
 <style>
  html {
      background-image: url('stars.gif');
-     scrollbar-color: #f38ba8 #11111b
  }
  h3 {
      color: #bac2de;
