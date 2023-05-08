@@ -1,32 +1,22 @@
 <script>
- // var markdownSrc = '$lib/md/about.md';
  import { page } from '$app/stores';
  import { onMount } from 'svelte';
  import { mdsvex } from 'mdsvex';
  import About from './about.md';
-
- // let url = ``;
- // onMount(() => url = window.location.href);
- // url = url.toString().replace("http://localhost:5173/about", "");
-
- let markdownSrc = `{$page.url.pathname}.md`;
+ import HeaderImage from '$lib/assets/garfpfp.png'
 </script>
-
 
 <body>
     <div class="card" id="main-panel">
         <div class="padded">
             <div class="heading">
-                <img src="garfpfp.png" alt="PFP" height=90px width=90px>
+                <img src="{HeaderImage}" alt="PFP" height=90px width=90px>
                 <h1>About me</h1>
                 <hr>
             </div>
             <div style="clear:both;"></div>
             <div class="content">
-                <!-- <p>Hallo, Welcome to my webpage!</p>
-                     <p>For the reasons of privacy I go under the pseudo names "Name" or "Garfunkle" online</p>
-                     <p>Current URL: {$page.url.pathname}</p> -->
-                <main>
+               <main>
                     <About />
                 </main>
             </div>

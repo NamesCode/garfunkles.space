@@ -158,11 +158,3 @@ pre[class*='language-'] {
 	opacity: 0.7;
 }
 ```
-
-## Languages
-
-- [x] Python _Everyone starts somewhere_
-- [x] Rust _Not finished but semi-confident_
-- [x] ELisp _Kinda started but wouldn't count_
-- [ ] Javascript :) _WebUI's with sveltekit_
-- [ ] Java :( _School_

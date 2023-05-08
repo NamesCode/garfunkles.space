@@ -77,7 +77,7 @@ pre[class*='language-'] {
 
 .token.comment,
 .token.prolog {
-	color: var(--overlay0);
+	color: var(--overlay2);
 }
 .token.punctuation,
 .token.entity,
