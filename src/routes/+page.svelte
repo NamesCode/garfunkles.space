@@ -1,16 +1,12 @@
 <script>
- export let foo;
- foo = undefined;
- // Values that are passed in as props
- // are immediately available
- console.log({ foo });
+ import HeaderImage from '$lib/assets/garfpfp.png'
 </script>
 
 <body>
     <div class="card" id="main-panel">
         <div class="padded">
             <div class="heading">
-                <img src="garfpfp.png" alt="PFP" height=90px width=90px>
+                <img src="{HeaderImage}" alt="PFP" height=90px width=90px>
                 <h1>Heading</h1>
                 <hr>
             </div>
