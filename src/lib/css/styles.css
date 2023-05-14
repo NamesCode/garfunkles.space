@@ -9,17 +9,17 @@
 }
 ::-moz-selection {
 	/* Code for Firefox */
-	background: var(--maroon);
+	background: var(--red);
 	color: var(--base);
 }
 
 ::selection {
-	background: var(--maroon);
+	background: var(--red);
 	color: var(--base);
 }
 
 * {
-	scrollbar-color: var(--maroon) var(--base);
+	scrollbar-color: var(--red) var(--base);
 }
 ::-webkit-scrollbar {
 	/* code for safari because apple cant be assed to make scrollbar-colour the complete standard */
@@ -30,7 +30,7 @@
 
 ::-webkit-scrollbar-thumb {
 	/* code for safari because apple cant be assed to make scrollbar-colour the complete standard */
-	background: var(--maroon);
+	background: var(--red);
 	border-radius: 5px;
 }
 a {
@@ -52,7 +52,9 @@ ol {
 	font-family: 'Lucida Console', 'Courier New', monospace;
 	color: var(--text);
 }
-p {
+p,
+details,
+summary {
 	color: var(--text);
 	font-family: 'Lucida Console', 'Courier New', monospace;
 	text-align: justify;
@@ -82,17 +84,18 @@ input {
 }
 .card {
 	background-color: var(--mantle);
-	border: 2.5px solid var(--red);
+	/* border: 2.5px solid var(--red); */
 	border-radius: 5px;
 	margin-bottom: 5px;
 	float: left;
 }
 .content {
-	max-width: 60%;
+	max-width: 80%;
 	margin: auto;
 }
 .padded {
 	padding-left: 1vw;
+	padding-top: 8px;
 }
 .heading {
 	padding-top: 1vw;
@@ -110,11 +113,19 @@ input {
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
+	hr {
+		max-width: 80%;
+	}
 	@media only screen and (max-width: 1026px) {
 		.content {
 			padding-right: 1vw;
 			max-width: 100%;
 			margin: 0;
+		}
+		@media only screen and (max-width: 800px) {
+			hr {
+				max-width: 70%;
+			}
 		}
 	}
 }
