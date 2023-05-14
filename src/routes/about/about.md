@@ -1,160 +1,137 @@
-How you found this profile is unknown but here it is!
-I try to contribute regularly. So far I haven't done much in the realms of Open-Source.
+<script>
+const birthday = new Date("11/23/2008"); // stupid american format
+var ageDifMs = Date.now() - birthday;
+var ageDate = new Date(ageDifMs); // miliseconds from epoch
+var age = Math.abs(ageDate.getUTCFullYear() - 1970);
 
-I'm a member of [Catppuccin](https://github.com/orgs/catppuccin/people?query=Name) :3
+import { langData, stuffIWantToDo, socials } from '$lib/contentData.js';
 
-[![@name's Holopin board](https://holopin.me/name)](https://holopin.io/@name)
+</script>
+
+# Hallo!
+
+<div style="margin-top: -1.5em">
+
+Thanks for coming to my miniscule corner of the internet where I assumed no one would visit!<br> I'm a {age} year old software developer (hobbyist?) from wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿<br>
+I have an interest in all STEM subjects with the largest being computer science.
+
+I am currently studying for GCSE's 0_o
 
 ## Socials
 
-- Email: <lasagna@garfunkles.space>
-- Github: [NamesCode](https://github.com/NamesCode)
-- Discord: NameExists#3898
+<div style="margin-top: -1.5em; padding-left: 1em;">
 
-## Code block
+{#each socials as {type, name, href}}
 
-```css
-/*
- * Catppuccin Theme originally by Pocco81 [https://github.com/Pocco81] for Neovim
- * https://github.com/catppuccin
- *
- * Ported for PrismJS by Name [https://github.com/NamesCode]
- */
-pre,
-code {
-	--text: #cdd6f4;
-	--base: #1e1e2e;
-	--mauve: #cba6f7;
-	--green: #a6e3a1;
-	--pink: #f5c2e7;
-	--overlay0: #6c7086;
-	--peach: #fab387;
-	--sky: #89dceb;
-	--overlay2: #9399b2;
-	--blue: #89b4fa;
-	--maroon: #eba0ac;
-	--red: #f38ba8;
-	--yellow: #f9e2af;
-}
+<div style="margin-top: -1em;">
 
-code[class*='language-'],
-pre[class*='language-'] {
-	background: var(--base);
-	color: var(--text);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; /* this is the default */
-	/* The following properties are standard, please leave them as they are */
-	font-size: 15px;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	line-height: 1.5;
-	-moz-tab-size: 2;
-	-o-tab-size: 2;
-	tab-size: 2;
-	/* The following properties are also standard */
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-}
+- {type}: [{name}]({href})
 
-code[class*='language-']::-moz-selection,
-code[class*='language-'] ::-moz-selection,
-pre[class*='language-']::-moz-selection,
-pre[class*='language-'] ::-moz-selection {
-	background: var(--text);
-	color: inherit;
-}
+</div>
 
-code[class*='language-']::selection,
-code[class*='language-'] ::selection,
-pre[class*='language-']::selection,
-pre[class*='language-'] ::selection {
-	background: var(--text);
-	color: inherit;
-}
+{/each}
 
-/* Properties specific to code blocks */
-pre[class*='language-'] {
-	padding: 1em; /* this is standard */
-	margin: 0.5em 0; /* this is the default */
-	overflow: auto; /* this is standard */
-	border-radius: 0.3em;
-}
+</div>
 
-/* Properties specific to inline code */
-:not(pre) > code[class*='language-'] {
-	padding: 0.2em 0.3em;
-	border-radius: 0.5rem;
-	white-space: normal; /* this is standard */
-}
+## What I use <sub style="font-size: 0.3em;">(I have no fucking clue what i'm meant to put on this website so this filler will have to do)</sub>
 
-.token.comment,
-.token.prolog {
-	color: var(--overlay0);
-}
-.token.punctuation,
-.token.entity,
-.token.url,
-.token.variable {
-	color: var(--text);
-}
-.token.cdata,
-.token.class-name {
-	color: var(--yellow);
-}
-.token.builtin {
-	color: var(--red);
-}
-.token.constant,
-.token.boolean,
-.token.number {
-	color: var(--peach);
-}
-.token.important,
-.token.atrule,
-.token.property,
-.token.keyword {
-	color: var(--mauve);
-}
-.token.doctype,
-.token.operator,
-.token.inserted,
-.token.tag,
-.token.symbol {
-	color: var(--sky);
-}
+<div style="margin-top: -1em; padding-left: 1em;">
 
-.token.attr-name,
-.token.function,
-.token.deleted,
-.token.selector {
-	color: var(--blue);
-}
+### Code editor
 
-.token.attr-value,
-.token.regex,
-.token.char,
-.token.string {
-	color: var(--green);
-}
+<div style="margin-top: -1em">
 
-/* The following rules are pretty similar across themes, but feel free to adjust them */
-.token.bold {
-	font-weight: bold;
-}
+I use Doom Emacs since I can use both Emacs bindings and VIM bindings in a great looking GUI with low resource usage. Catppuccin Mocha aswell btw.
 
-.token.italic {
-	font-style: italic;
-}
+I have used other editors in the past, for example VScode, but I never really liked them.
 
-.token.entity {
-	cursor: help;
-}
+</div>
 
-.token.namespace {
-	opacity: 0.7;
-}
-```
+### OS
+
+<div style="margin-top: -1em">
+
+I daily drive MacOS but I use linux on server and any other machine. <br> I am never touching that filthy fucking cretin called "Microsoft Windows" ever again. If I have to use windows I will personally claw out the organs of every single Microsoft bigwig. This is a threat.
+
+</div>
+
+### Language of choice
+
+<div style="margin-top: -1em">
+
+I don't really have a language of choice, I will just go with whatever is easiest or that I want to use. However, I am quite fond of rust.
+
+</div>
+
+### Webbrowser
+
+<div style="margin-top: -1em">
+
+I only use the finest browser, which is of course firefox. <br>
+In all seriousness I use librewolf as my webbrowser since it resists fingerprinting and data tracking well to a point and its essentially unmozilla'd firefox.
+
+</div>
+
+</div>
+</div>
+
+## Other shit
+
+<div style="margin-top: -1.5em;">
+<div style="padding-left: 1em;">
+
+<details>
+<summary>Programming languages I know or want to learn</summary>
+
+<div style="margin-top: -1em">
+
+- rust
+
+{#each langData as {lang, info}}
+
+<div style="margin-top: -1em;">
+
+- {lang} {#if info != ""}<sub style="padding-bottom: 5px">_({info})_</sub>{/if}
+
+</div>
+
+{/each}
+
+</div>
+
+</details>
+
+<details>
+<summary>Stuff I wanna mess around with / things I want to do</summary>
+
+<div style="margin-top: -1em">
+
+- building a linux OS from the bare minimum<sub style="padding-bottom: 5px">_(That way I could finetune everything to how I want it)_</sub>
+
+{#each stuffIWantToDo as {thing, info}}
+
+<div style="margin-top: -1em;">
+
+- {thing} {#if info != ""}<sub style="padding-bottom: 5px">_({info})_</sub>{/if}
+
+</div>
+
+{/each}
+
+</div>
+
+</details>
+
+<details>
+<summary>More info</summary>
+
+<div style="margin-top: -1em">
+
+My name is Walter Hartwell White. I live at 308 Negra Arroyo Lane, Albuquerque, New Mexico, 87104. This is my confession. If you're watching this tape, I'm probably dead– murdered by my brother-in-law, Hank Schrader. Hank has been building a meth empire for over a year now, and using me as his chemist. Shortly after my 50th birthday, he asked that I use my chemistry knowledge to cook methamphetamine, which he would then sell using connections that he made through his career with the DEA. I was... astounded. I... I always thought Hank was a very moral man, and I was particularly vulnerable at the time – something he knew and took advantage of. I was reeling from a cancer diagnosis that was poised to bankrupt my family. Hank took me in on a ride-along and showed me just how much money even a small meth operation could make. And I was weak. I didn't want my family to go into financial ruin, so I agreed. Hank had a partner, a businessman named Gustavo Fring. Hank sold me into servitude to this man. And when I tried to quit, Fring threatened my family. I didn't know where to turn. Eventually, Hank and Fring had a falling-out. Things escalated. Fring was able to arrange – uh, I guess... I guess you call it a "hit" – on Hank, and failed, but Hank was seriously injured. And I wound up paying his medical bills, which amounted to a little over $177,000. Upon recovery, Hank was bent on revenge. Working with a man named Hector Salamanca, he plotted to kill Fring. The bomb that he used was built by me, and he gave me no option in it. I have often contemplated suicide, but I'm a coward. I wanted to go to the police, but I was frightened. Hank had risen to become the head of the Albuquerque DEA. To keep me in line, he took my children. For three months, he kept them. My wife had no idea of my criminal activities, and was horrified to learn what I had done. I was in hell. I hated myself for what I had brought upon my family. Recently, I tried once again to quit, and in response, he gave me this. [Walt points to the bruise on his face left by Hank in "Blood Money."] I can't take this anymore. I live in fear every day that Hank will kill me, or worse, hurt my family. All I could think to do was to make this video and hope that the world will finally see this man for what he really is.
+
+</div>
+
+</details>
+</div>
+
+</div>

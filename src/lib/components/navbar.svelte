@@ -1,10 +1,6 @@
 <script>
- const navData = [
-     {
-         title: 'About',
-         href: '/about',
-     },
- ]
+ import { navData } from '$lib/contentData.js';
+ import firefox from '$lib/assets/firefox_scroll_too_far.png';
 
  let mobileNav = { toggled: false };
 
@@ -61,6 +57,7 @@
     <div style="clear:both;"></div>
     {#if mobileNav.toggled}
         <hr>
+        <!-- its not an excuse for bad website design, its a feature -->
         <div id="mobileNavMenu" style="padding-left:7vw;">
             <ul>
                 <a href="/" title="Home"><li>Home</li></a>
@@ -71,8 +68,10 @@
         </div>
     {/if}
 </div>
-<div style="height: 30px;"></div>
-<div class="garf_line" style="margin-bottom: 5px;"></div>
+<!-- <div style="height: 30px;"> -->
+<img src="{firefox}" alt="firefox" height=25>
+<!-- </div> -->
+<div class="garf_line" style="margin-bottom: 2.5px; margin-top: 2.5px;"></div>
 
 <style>
  h3 {
@@ -124,21 +123,20 @@
  .mobile {
      display: none;
  }
- @media only screen and (max-width: 500px) {
-     .desktop {
-         display: none;
-     }
-     .mobile {
-         display: block;
-     }
-     .mainNav {
-         width: 100%;
-         padding-top: 1.5px;
-         padding-bottom: 1.5px;
-     }
-     .navbar h3 {
-         margin-left: -1vw;
-     }
- }
-
+         @media only screen and (max-width: 500px) {
+             .desktop {
+                 display: none;
+             }
+             .mobile {
+                 display: block;
+             }
+             .mainNav {
+                 width: 100%;
+                 padding-top: 1.5px;
+                 padding-bottom: 1.5px;
+             }
+             .navbar h3 {
+                 margin-left: -1vw;
+             }
+         }
 </style>
