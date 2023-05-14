@@ -7,7 +7,8 @@
 </script>
 
 <body>
-    <div class="card" id="main-panel">
+    <div style="display: flex; align-items: center; padding-bottom: 1.5vh;">
+        <div class="card" id="main-panel">
         <div class="padded">
             <div class="heading">
                 <img src="{HeaderImage}" alt="PFP" height=90px width=90px>
@@ -18,39 +19,29 @@
             <div class="content">
                <main>
                     <About />
-                </main>
+               </main>
             </div>
         </div>
-    </div>
-    <div id="side-panel">
-        <div class="card">
-            <h1 style="padding-left: 15px;">Socials</h1>
-            <hr>
-            <ul>Twitter: @NameIsALoser</ul>
-            <ul>Email: <a href="mailto:lasagna@garfunkles.space">lasagna@garfunkles.space</a></ul>
-            <ul>Discord: NameExists#3898</ul>
         </div>
-</body>
-
+    </div>
+    </body>
 
 <style>
  main {
      margin-top: -2.5em;
 	 padding-top: 0.5em;
  }
- #side-panel {
-     float: right;
-     /* padding-left: 1vw; */
-     width: 20%;
-     padding-right: 24px;
- }
  #main-panel {
      width: 77%;
+     margin: auto;
      padding-bottom: 1vw;
  }
- @media only screen and (max-width: 1080px) {
+ .padded {
+     margin-top: -1vh;
+ }
+ @media only screen and (max-width: 800px) {
      #main-panel {
-		 width: 100%;
+		 width: 92.5%;
 	 }
  }
 </style>

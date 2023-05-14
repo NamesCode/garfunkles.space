@@ -15,6 +15,4 @@
  }
 </style>
 
-<div style="padding-left: 0.85rem; padding-right: 0.85rem;">
-    <slot></slot>
-</div>
+<slot></slot>
