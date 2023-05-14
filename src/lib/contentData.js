@@ -78,6 +78,36 @@ export const socials = [
 	}
 ];
 
+export const finishedProjects = [
+	{
+		project: 'This website',
+		description:
+			"This awful website has taken me far to long to make and go live. It's meant to have an early internet vibe but I don't really think I pulled it off."
+	}
+];
+
+export const projects = [
+	{
+		project: 'Matric (Name is WIP)',
+		description:
+			'The goal for this is to have a cross platform chat app that can interact with multiple stardard chat protocols like matrix, irc, XMPP, Revolt'
+	},
+	{
+		project: 'some jackbox clone',
+		description:
+			'I played jackbox with some friends and instead of actually buying it, I decided to make a far crappier version of it'
+	},
+	{
+		project: 'Cross-platform Monero Miner in rust',
+		description:
+			'wanted to do some GPU programming and something with crypto currencies. Decided this was a good idea, somehow'
+	},
+	{
+		project: 'Self-hostable Music streaming app',
+		description: 'Wanted to learn about network protocols and leave spotify so this idea formed'
+	}
+];
+
 export const navData = [
 	{
 		title: 'About',

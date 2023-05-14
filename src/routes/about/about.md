@@ -5,6 +5,9 @@ var ageDate = new Date(ageDifMs); // miliseconds from epoch
 var age = Math.abs(ageDate.getUTCFullYear() - 1970);
 
 import { langData, stuffIWantToDo, socials } from '$lib/contentData.js';
+import Mozilla from '$lib/assets/monazilla.gif';
+import Rust from '$lib/assets/original_ferris.svg';
+import Apple from '$lib/assets/apple_logo.svg';
 
 </script>
 
@@ -47,7 +50,7 @@ I have used other editors in the past, for example VScode, but I never really li
 
 </div>
 
-### OS
+### OS <img src="{Apple}" alt="MacOS" height="20vh">
 
 <div style="margin-top: -1em">
 
@@ -55,7 +58,7 @@ I daily drive MacOS but I use linux on server and any other machine. <br> I am n
 
 </div>
 
-### Language of choice
+### Language of choice <img src="{Rust}" alt="Rust" height="15vh">
 
 <div style="margin-top: -1em">
 
@@ -63,7 +66,7 @@ I don't really have a language of choice, I will just go with whatever is easies
 
 </div>
 
-### Webbrowser
+### Webbrowser <img src="{Mozilla}" alt="Mozilla" height="15vh">
 
 <div style="margin-top: -1em">
 
