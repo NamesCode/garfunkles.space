@@ -1,9 +1,6 @@
 <script>
- import { page } from '$app/stores';
- import { onMount } from 'svelte';
- import { mdsvex } from 'mdsvex';
- import Home from './home.md';
- import HeaderImage from '$lib/assets/garfpfp.png'
+ import HeaderImage from '$lib/assets/garfpfp.png';
+ import Home from '$lib/md/home.md';
 </script>
 
 <body>
@@ -18,7 +15,7 @@
             <div style="clear:both;"></div>
             <div class="content">
                <main>
-                    <Home />
+                   <Home />
                </main>
             </div>
         </div>

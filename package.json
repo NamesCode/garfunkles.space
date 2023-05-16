@@ -1,5 +1,5 @@
 {
-	"name": "website",
+	"name": "garfunkles.space",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -23,5 +23,7 @@
 		"vitest": "^0.25.3"
 	},
 	"type": "module",
-	"dependencies": {}
+	"dependencies": {
+		"@sveltejs/adapter-node": "^1.2.4"
+	}
 }

@@ -1,8 +1,5 @@
 <script>
- import { page } from '$app/stores';
- import { onMount } from 'svelte';
- import { mdsvex } from 'mdsvex';
- import About from './about.md';
+ import About from '$lib/md/about.md';
  import HeaderImage from '$lib/assets/garfpfp.png'
 </script>
 

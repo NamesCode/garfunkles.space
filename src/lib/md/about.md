@@ -1,8 +1,8 @@
 <script>
-const birthday = new Date("11/23/2008"); // stupid american format
-var ageDifMs = Date.now() - birthday;
-var ageDate = new Date(ageDifMs); // miliseconds from epoch
-var age = Math.abs(ageDate.getUTCFullYear() - 1970);
+// const birthday = new Date("11/23/2008"); // stupid american format
+// var ageDifMs = Date.now() - birthday;
+// var ageDate = new Date(ageDifMs); // miliseconds from epoch
+// var age = Math.abs(ageDate.getUTCFullYear() - 1970);
 
 import { langData, stuffIWantToDo, socials } from '$lib/contentData.js';
 import Mozilla from '$lib/assets/monazilla.gif';
@@ -15,7 +15,7 @@ import Apple from '$lib/assets/apple_logo.svg';
 
 <div style="margin-top: -1.5em">
 
-Thanks for coming to my miniscule corner of the internet where I assumed no one would visit!<br> I'm a {age} year old software developer (hobbyist?) from wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿<br>
+Thanks for coming to my miniscule corner of the internet where I assumed no one would visit!<br> I'm a age year old software developer (hobbyist?) from wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿<br>
 I have an interest in all STEM subjects with the largest being computer science.
 
 I am currently studying for GCSE's 0_o
@@ -36,7 +36,13 @@ I am currently studying for GCSE's 0_o
 
 </div>
 
+<div style="padding-bottom: 0.1em;">
+
 ## What I use <sub style="font-size: 0.3em;">(I have no fucking clue what i'm meant to put on this website so this filler will have to do)</sub>
+
+<hr style="margin-top: -1.3em; margin-left: -0.1em;">
+
+</div>
 
 <div style="margin-top: -1em; padding-left: 1em;">
 
