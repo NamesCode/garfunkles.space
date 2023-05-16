@@ -75,10 +75,6 @@ hr {
 margin-top: -1em;
 margin-left: -0.2em
 }
-span {
-font-family: 'Lucida Console', 'Courier New', monospace;
-color: var(--text);
-}
 .alignRoundImg {
 text-align: justify;
 }
