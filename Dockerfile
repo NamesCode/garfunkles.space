@@ -21,3 +21,5 @@ RUN cd /app && yarn install --production && yarn cache clean
 WORKDIR /app
 
 CMD ["node", "build/index.js"]
+
+EXPOSE 3000

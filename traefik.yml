@@ -1,0 +1,36 @@
+global:
+  sendAnonymousUsage: false
+
+log:
+  level: DEBUG
+accessLog: {}
+
+entryPoints:
+  web:
+    address: ":3000"
+
+http:
+  routers:
+    Router-1:
+      entryPoints:
+        - "web"
+        - "websecure"
+      rule: "Host(`garfunkles.space`)"
+      service: "web"
+
+providers:
+  docker:
+    endpoint: unix:///var/run/docker.sock
+    # watch: true
+    exposedByDefault: false
+    network: traefik
+
+certificatesResolvers:
+  letsencrypt:
+    acme:
+      # caServer: https://acme-staging-v02.api.letsencrypt.org/directory
+      email: "lasagna@garfunkles.space"
+      storage: "acme.json"
+
+      httpChallenge:
+        entryPoint: web
