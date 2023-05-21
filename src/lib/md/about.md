@@ -1,8 +1,8 @@
 <script>
-// const birthday = new Date("11/23/2008"); // stupid american format
-// var ageDifMs = Date.now() - birthday;
-// var ageDate = new Date(ageDifMs); // miliseconds from epoch
-// var age = Math.abs(ageDate.getUTCFullYear() - 1970);
+const birthday = new Date("11/23/2008"); // stupid american format
+var ageDifMs = Date.now() - birthday;
+var ageDate = new Date(ageDifMs); // miliseconds from epoch
+var age = Math.abs(ageDate.getUTCFullYear() - 1970);
 
 import { langData, stuffIWantToDo, socials } from '$lib/contentData.js';
 import Mozilla from '$lib/assets/monazilla.gif';
@@ -15,12 +15,12 @@ import Apple from '$lib/assets/apple_logo.svg';
 
 <div style="margin-top: -1.5em">
 
-Thanks for coming to my miniscule corner of the internet where I assumed no one would visit!<br> I'm a age year old software developer (hobbyist?) from wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿<br>
+Thanks for coming to my minuscule corner of the internet where I assumed no one would visit!<br> I'm a {age} year old software developer (hobbyist?) from wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿<br>
 I have an interest in all STEM subjects with the largest being computer science.
 
 I am currently studying for GCSE's 0_o
 
-## Socials
+## Contact me!
 
 <div style="margin-top: -1.5em; padding-left: 1em;">
 
@@ -50,7 +50,7 @@ I am currently studying for GCSE's 0_o
 
 <div style="margin-top: -1em">
 
-I use Doom Emacs since I can use both Emacs bindings and VIM bindings in a great looking GUI with low resource usage. Catppuccin Mocha aswell btw.
+I use Doom Emacs since I can use both Emacs bindings and VIM bindings in a great looking GUI with low resource usage. Catppuccin Mocha as well btw.
 
 I have used other editors in the past, for example VScode, but I never really liked them.
 
@@ -72,12 +72,12 @@ I don't really have a language of choice, I will just go with whatever is easies
 
 </div>
 
-### Webbrowser <img src="{Mozilla}" alt="Mozilla" height="15vh">
+### Web-browser <img src="{Mozilla}" alt="Mozilla" height="15vh">
 
 <div style="margin-top: -1em">
 
 I only use the finest browser, which is of course firefox. <br>
-In all seriousness I use librewolf as my webbrowser since it resists fingerprinting and data tracking well to a point and its essentially unmozilla'd firefox.
+In all seriousness I use librewolf as my web-browser since it resists fingerprinting and data tracking to a point and its essentially unmozilla'd firefox.
 
 </div>
 
@@ -115,7 +115,7 @@ In all seriousness I use librewolf as my webbrowser since it resists fingerprint
 
 <div style="margin-top: -1em">
 
-- building a linux OS from the bare minimum<sub style="padding-bottom: 5px">_(That way I could finetune everything to how I want it)_</sub>
+- building a Linux OS from the bare minimum<sub style="padding-bottom: 5px">_(That way I could finetune everything to how I want it)_</sub>
 
 {#each stuffIWantToDo as {thing, info}}
 
