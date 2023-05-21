@@ -49,7 +49,7 @@ Welcome to my minuscule and insignificant corner of the web! Please don't expect
 {/each}
 
 <div style="margin-top: -1em; padding-bottom: 5px;">
-<sub style="color: var(--text);">(I might not even do any of these)</sub>
+<sub style="color: var(--text); font-family: courier-new;">(I might not even do any of these)</sub>
 </div>
 
 </div>
