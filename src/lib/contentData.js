@@ -80,9 +80,9 @@ export const socials = [
 
 export const finishedProjects = [
   {
-    project: "This website",
+    project: "Garfunkles.space",
     description:
-      "This awful website has taken me far to long to make and go live, with many hiccups along the way like: cloudflared not working through CLI so having to use the tunnel dashboard, Website suddenly vanishes from the web and gave a 502 error which was resolved by changing the site from https to http, Markdown rendering in svelte was a whole thing which due to me being a complete moron and importing MDsveX into every page after importing it into Svelte config. It's meant to have an early internet vibe but I don't really think I pulled it off. This website still isn't finished and any feedback on how I could improve it would be greatly appreciated!",
+      "This awful website has taken me far to long to make and go live, with many hiccups along the way. It's meant to have an early internet vibe but I don't really think I pulled it off. This website still isn't finished and any feedback on how I could improve it would be greatly appreciated!",
   },
 ];
 
