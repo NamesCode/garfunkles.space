@@ -1,5 +1,5 @@
 <script>
- import HeaderImage from '$lib/assets/garfpfp.png';
+ import HeaderImage from '$lib/assets/bbc_micro.gif';
  import Home from '$lib/md/home.md';
 </script>
 
