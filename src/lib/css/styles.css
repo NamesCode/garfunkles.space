@@ -1,131 +1,132 @@
-@import 'prism-catppuccin-mocha.css';
+@import "prism-catppuccin-mocha.css";
 
 :root {
-	--text: #bac2de;
-	--maroon: #eba0ac;
-	--red: #f38ba8;
-	--mantle: #181825;
-	--base: #1e1e2e;
+  --text: #bac2de;
+  --maroon: #eba0ac;
+  --red: #f38ba8;
+  --mantle: #181825;
+  --base: #1e1e2e;
 }
 ::-moz-selection {
-	/* Code for Firefox */
-	background: var(--red);
-	color: var(--base);
+  /* Code for Firefox */
+  background: var(--red);
+  color: var(--base);
 }
 
 ::selection {
-	background: var(--red);
-	color: var(--base);
+  background: var(--red);
+  color: var(--base);
 }
 
 * {
-	scrollbar-color: var(--red) var(--base);
+  scrollbar-color: var(--red) var(--base);
 }
 ::-webkit-scrollbar {
-	/* code for safari because apple cant be assed to make scrollbar-colour the complete standard */
-	width: 8px;
-	height: 8px;
-	background-color: var(--base);
+  /* code for safari because apple cant be assed to make scrollbar-colour the complete standard */
+  width: 8px;
+  height: 8px;
+  background-color: var(--base);
 }
 
 ::-webkit-scrollbar-thumb {
-	/* code for safari because apple cant be assed to make scrollbar-colour the complete standard */
-	background: var(--red);
-	border-radius: 5px;
+  /* code for safari because apple cant be assed to make scrollbar-colour the complete standard */
+  background: var(--red);
+  border-radius: 5px;
 }
 a {
-	color: var(--red);
-	text-decoration: none;
-	font-family: 'Lucida Console', 'Courier New', monospace;
+  color: var(--red);
+  text-decoration: none;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 a:hover {
-	color: var(--maroon);
+  color: var(--maroon);
 }
 ul {
-	padding: 0;
-	padding-left: 1vw;
-	font-family: 'Lucida Console', 'Courier New', monospace;
-	padding-right: 1vw;
-	color: var(--text);
+  padding: 0;
+  padding-left: 1vw;
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding-right: 1vw;
+  color: var(--text);
 }
 ol {
-	font-family: 'Lucida Console', 'Courier New', monospace;
-	color: var(--text);
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: var(--text);
 }
 p,
 details,
 summary {
-	color: var(--text);
-	font-family: 'Lucida Console', 'Courier New', monospace;
-	text-align: justify;
+  color: var(--text);
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: justify;
 }
 hr {
-	color: var(--text);
-	background-color: var(--text);
-	margin-left: 10px;
-	max-width: 90%;
-	height: 2.5px;
-	border-radius: 5px;
-	margin-top: -30px;
+  color: var(--text);
+  background-color: var(--text);
+  margin-left: 10px;
+  max-width: 90%;
+  height: 2.5px;
+  border-radius: 5px;
+  margin-top: -30px;
 }
 main img {
-	max-width: 100%;
+  max-width: 100%;
 }
 h1,
 h2,
 h3 {
-	color: var(--text);
-	font-weight: normal;
-	letter-spacing: 1px;
-	font-family: 'Rockwell', serif;
+  color: var(--text);
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-family: "Rockwell", "Kameron Bold", "Glypha", "Serifa", "Fakt Slab",
+    "Courier Bold", serif;
 }
 input {
-	accent-color: var(--maroon);
+  accent-color: var(--maroon);
 }
 .card {
-	background-color: var(--mantle);
-	/* border: 2.5px solid var(--red); */
-	border-radius: 5px;
-	margin-bottom: 5px;
-	float: left;
+  background-color: var(--mantle);
+  /* border: 2.5px solid var(--red); */
+  border-radius: 5px;
+  margin-bottom: 5px;
+  float: left;
 }
 .content {
-	max-width: 80%;
-	margin: auto;
+  max-width: 80%;
+  margin: auto;
 }
 .padded {
-	padding-left: 1vw;
-	padding-top: 8px;
+  padding-left: 1vw;
+  padding-top: 8px;
 }
 .heading {
-	padding-top: 1vw;
+  padding-top: 1vw;
 }
 .heading img {
-	border-radius: 20%;
-	padding-right: 7.5px;
-	float: left;
+  border-radius: 20%;
+  padding-right: 7.5px;
+  float: left;
 }
 @media only screen and (max-width: 1080px) {
-	#side-panel {
-		display: none;
-	}
-	main {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-	hr {
-		max-width: 80%;
-	}
-	@media only screen and (max-width: 1026px) {
-		.content {
-			padding-right: 1vw;
-			max-width: 100%;
-			margin: 0;
-		}
-		@media only screen and (max-width: 800px) {
-			hr {
-				max-width: 70%;
-			}
-		}
-	}
+  #side-panel {
+    display: none;
+  }
+  main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  hr {
+    max-width: 80%;
+  }
+  @media only screen and (max-width: 1026px) {
+    .content {
+      padding-right: 1vw;
+      max-width: 100%;
+      margin: 0;
+    }
+    @media only screen and (max-width: 800px) {
+      hr {
+        max-width: 70%;
+      }
+    }
+  }
 }
