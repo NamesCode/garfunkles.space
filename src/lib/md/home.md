@@ -106,7 +106,6 @@ If you checkout my <a href="https://github.com/NamesCode">Github</a> and <a href
 
 <img src="{Mac}" alt="Made with MacOS" height="35vh" title="UNIX > DOS">
 <a href="https://www.gnu.org/software/emacs/" target="_blank" rel="noopener noreferrer" title="The best code editor"><img src="{Emacs}" alt="Made with GNU Emacs" height="35vh"></a>
-<img src={Chrome} alt="Anything but chrome" height="35vh" on:click={() => showContent = true}>
 
 </div>
 
