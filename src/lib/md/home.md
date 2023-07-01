@@ -44,7 +44,7 @@ Every thing this website links to is self-hosted (The majority locally) because:
 
 <div style="margin-top: -1em;">
 
-**Some projects ive done in the past:**
+**Some projects i've done in the past:**
 
 <hr>
 
@@ -64,7 +64,7 @@ Every thing this website links to is self-hosted (The majority locally) because:
 
 </div>
 
-**Current projects i'm working on are:**
+**Current projects I'm working on are:**
 
 <hr>
 
