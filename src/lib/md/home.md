@@ -6,15 +6,9 @@
     import Cat from '$lib/assets/cat.gif';
     import LocalNetwork from '$lib/assets/local_network.gif';
     import LockNKey from '$lib/assets/retro-os-icons/keys3.png';
-    import Chrome from '$lib/assets/anything_but_chrome.gif';
-    import ChromiumAlert from '$lib/components/chromiumUser.svelte';
     
     var showContent = false;
 </script>
-
-{#if showContent}
-<ChromiumAlert showContent=true/>
-{/if}
 
 Welcome to my minuscule and insignificant corner of the web! Please don't expect anything of quality from this website.
 
