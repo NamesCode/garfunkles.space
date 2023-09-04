@@ -1,5 +1,11 @@
 @import "prism-catppuccin-mocha.css";
 
+@font-face {
+  font-family: "Rockwell";
+  src: local("Rockwell"),
+    url("$lib/assets/fonts/Rockwell.woff2") format("woff2");
+}
+
 :root {
   --text: #bac2de;
   --maroon: #eba0ac;
@@ -7,6 +13,7 @@
   --mantle: #181825;
   --base: #1e1e2e;
 }
+
 ::-moz-selection {
   /* Code for Firefox */
   background: var(--red);
@@ -21,6 +28,7 @@
 * {
   scrollbar-color: var(--red) var(--base);
 }
+
 ::-webkit-scrollbar {
   /* code for safari because apple cant be assed to make scrollbar-colour the complete standard */
   width: 8px;
@@ -33,14 +41,17 @@
   background: var(--red);
   border-radius: 5px;
 }
+
 a {
   color: var(--red);
   text-decoration: none;
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
 a:hover {
   color: var(--maroon);
 }
+
 ul {
   padding: 0;
   padding-left: 1vw;
@@ -48,10 +59,12 @@ ul {
   padding-right: 1vw;
   color: var(--text);
 }
+
 ol {
   font-family: "Lucida Console", "Courier New", monospace;
   color: var(--text);
 }
+
 p,
 details,
 summary {
@@ -59,6 +72,7 @@ summary {
   font-family: "Lucida Console", "Courier New", monospace;
   text-align: justify;
 }
+
 hr {
   color: var(--text);
   background-color: var(--text);
@@ -68,9 +82,11 @@ hr {
   border-radius: 5px;
   margin-top: -30px;
 }
+
 main img {
   max-width: 100%;
 }
+
 h1,
 h2,
 h3 {
@@ -80,9 +96,11 @@ h3 {
   font-family: "Rockwell", "Kameron Bold", "Glypha", "Serifa", "Fakt Slab",
     "Courier Bold", serif;
 }
+
 input {
   accent-color: var(--maroon);
 }
+
 .card {
   background-color: var(--mantle);
   /* border: 2.5px solid var(--red); */
@@ -90,22 +108,27 @@ input {
   margin-bottom: 5px;
   float: left;
 }
+
 .content {
   max-width: 80%;
   margin: auto;
 }
+
 .padded {
   padding-left: 1vw;
   padding-top: 8px;
 }
+
 .heading {
   padding-top: 1vw;
 }
+
 .heading img {
   border-radius: 20%;
   padding-right: 7.5px;
   float: left;
 }
+
 @media only screen and (max-width: 1080px) {
   #side-panel {
     display: none;

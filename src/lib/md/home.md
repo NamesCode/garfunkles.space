@@ -6,15 +6,9 @@
     import Cat from '$lib/assets/cat.gif';
     import LocalNetwork from '$lib/assets/local_network.gif';
     import LockNKey from '$lib/assets/retro-os-icons/keys3.png';
-    import Chrome from '$lib/assets/anything_but_chrome.gif';
-    import ChromiumAlert from '$lib/components/chromiumUser.svelte';
     
     var showContent = false;
 </script>
-
-{#if showContent}
-<ChromiumAlert showContent=true/>
-{/if}
 
 Welcome to my minuscule and insignificant corner of the web! Please don't expect anything of quality from this website.
 
@@ -50,7 +44,7 @@ Every thing this website links to is self-hosted (The majority locally) because:
 
 <div style="margin-top: -1em;">
 
-**Some projects ive done in the past:**
+**Some projects i've done in the past:**
 
 <hr>
 
@@ -70,7 +64,7 @@ Every thing this website links to is self-hosted (The majority locally) because:
 
 </div>
 
-**Current projects i'm working on are:**
+**Current projects I'm working on are:**
 
 <hr>
 
@@ -106,7 +100,6 @@ If you checkout my <a href="https://github.com/NamesCode">Github</a> and <a href
 
 <img src="{Mac}" alt="Made with MacOS" height="35vh" title="UNIX > DOS">
 <a href="https://www.gnu.org/software/emacs/" target="_blank" rel="noopener noreferrer" title="The best code editor"><img src="{Emacs}" alt="Made with GNU Emacs" height="35vh"></a>
-<img src={Chrome} alt="Anything but chrome" height="35vh" on:click={() => showContent = true}>
 
 </div>
 
