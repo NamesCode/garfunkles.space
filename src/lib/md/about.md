@@ -115,7 +115,7 @@ In all seriousness I use librewolf as my web-browser since it resists fingerprin
 
 <div style="margin-top: -1em">
 
-- building a Linux OS from the bare minimum<sub style="padding-bottom: 5px">_(That way I could finetune everything to how I want it)_</sub>
+- Go to a Will Wood concert and meet the fellow <sub style="padding-bottom: 5px">_(He makes the funky music)_</sub>
 
 {#each stuffIWantToDo as {thing, info}}
 
