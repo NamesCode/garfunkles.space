@@ -1,12 +1,12 @@
 <script>
  import { navData } from '$lib/contentData.js';
- import firefox from '$lib/assets/firefox_scroll_too_far.png';
 
  let mobileNav = { toggled: false };
 
  function toggle() {
 	 mobileNav.toggled = !mobileNav.toggled;
  }
+
  let windowWidth;
 </script>
 
@@ -18,7 +18,7 @@
             {#if windowWidth < 501}
             <h3>Garfunkles.space</h3>
             <!-- this is such an awful hack but it works -->
-            <div style="width: 20vw;"></div>
+            <div style="width: 20vw;"/>
             {:else}
             <h3>Garfunkles.space</h3>
            {/if}
@@ -68,10 +68,8 @@
         </div>
     {/if}
 </div>
-<!-- <div style="height: 30px;"> -->
-<img src="{firefox}" alt="firefox" height=25>
-<!-- </div> -->
-<div class="garf_line" style="margin-bottom: 2.5px; margin-top: 2.5px;"></div>
+ <div style="height: 30px;"/> 
+<div class="garf_line" style="margin-bottom: 2.5px; margin-top: 2.5px;"/>
 
 <style>
  h3 {
