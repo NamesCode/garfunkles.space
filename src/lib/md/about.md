@@ -1,5 +1,5 @@
 <script>
-const birthday = new Date("11/23/2008"); // stupid american format
+const birthday = new Date("2008/11/23"); 
 var ageDifMs = Date.now() - birthday;
 var ageDate = new Date(ageDifMs); // miliseconds from epoch
 var age = Math.abs(ageDate.getUTCFullYear() - 1970);
@@ -8,6 +8,9 @@ import { langData, stuffIWantToDo, socials } from '$lib/contentData.js';
 import Mozilla from '$lib/assets/monazilla.gif';
 import Rust from '$lib/assets/original_ferris.svg';
 import Apple from '$lib/assets/apple_logo.svg';
+import NixOS from '$lib/assets/nixos_logo.svg';
+import VeryNix from '$lib/assets/verynix.png';
+import HateMS from '$lib/assets/hatems.gif';
 
 </script>
 
@@ -15,10 +18,12 @@ import Apple from '$lib/assets/apple_logo.svg';
 
 <div style="margin-top: -1.5em">
 
-Thanks for coming to my minuscule corner of the internet where I assumed no one would visit!<br> I'm a {age} year old software developer (hobbyist?) from wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿<br>
-I have an interest in all STEM subjects with the largest being computer science.
+Thanks for coming to my minuscule corner of the internet!<br>
+I'm a {age} year old software developer (hobbyist?) from Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿<br>
+My interests are typically a wide area of things ranging from tinkering with embedded projects, DevOPs and computer science to 3d design and science.
 
-I am currently studying for GCSE's 0_o
+Studying for <hover-info>GCSE's<hover-info-text> Computer science, product design and triple science</hover-info-text></hover-info> (.┰ω┰.)
+
 
 ## Contact me!
 
@@ -38,19 +43,25 @@ I am currently studying for GCSE's 0_o
 
 <div style="padding-bottom: 0.1em;">
 
-## What I use <sub style="font-size: 0.3em;">(I have no fucking clue what i'm meant to put on this website so this filler will have to do)</sub>
+## What I use <sub style="font-size: 0.3em;">(I have no clue what I'm meant to put on this website so this filler will have to do)</sub>
 
 <hr style="margin-top: -1.3em; margin-left: -0.1em;">
 
 </div>
 
-<div style="margin-top: -1em; padding-left: 1em;">
+<div style="margin-top: -1em;">
+
+<p>Everything I use, along with configuration files and theming, is available in my <a href="https://github.com/NamesCode/.Dotfiles" target="_blank" rel="noopener noreferrer">Nix dotfiles </a><img src="{VeryNix}" alt="Nix logo with sunglasses on"/></p>
+
+<div style="padding-left: 1em;">
 
 ### Code editor
 
 <div style="margin-top: -1em">
 
-I use Doom Emacs since I can use both Emacs bindings and VIM bindings in a great looking GUI with low resource usage. Catppuccin Mocha as well btw.
+~~I use Doom Emacs since I can use both Emacs bindings and VIM bindings in a great looking GUI with low resource usage. Catppuccin Mocha as well btw.~~
+
+I no longer use Emacs in favor of Neovim. Emacs was just too buggy and a pain to get working.
 
 I have used other editors in the past, for example VScode, but I never really liked them.
 
@@ -60,15 +71,14 @@ I have used other editors in the past, for example VScode, but I never really li
 
 <div style="margin-top: -1em">
 
-I daily drive MacOS but I use linux on server and any other machine. <br> I am never touching that filthy fucking cretin called "Microsoft Windows" ever again. If I have to use windows I will personally claw out the organs of every single Microsoft bigwig. This is a threat.
-
+I daily drive <hover-info>macOS<hover-info-text>However it has been hardened using <a href="https://github.com/drduh/macOS-Security-and-Privacy-Guide" target="_blank" rel="noopener noreferrer">this guide</a></hover-info-text></hover-info> but I use <hover-info>Linux<hover-info-text><span style="display: flex;">Specifically NixOS<img src="{NixOS}" alt="NixOS logo" style="height: 1em; padding-left: 0.5em;"></span></hover-info-text></hover-info> on server and any other machine. <br> I am never touching that vile piece of software called "Microsoft Windows" ever again. ![I hate Microsoft]({HateMS})
 </div>
 
 ### Language of choice <img src="{Rust}" alt="Rust" height="15vh">
 
 <div style="margin-top: -1em">
 
-I don't really have a language of choice, I will just go with whatever is easiest or that I want to use. However, I am quite fond of rust.
+I don't really have a language of choice, I will just go with whatever is easiest or that I want to use. However, I am quite fond of Rust.
 
 </div>
 
@@ -76,15 +86,21 @@ I don't really have a language of choice, I will just go with whatever is easies
 
 <div style="margin-top: -1em">
 
-I only use the finest browser, which is of course firefox. <br>
-In all seriousness I use librewolf as my web-browser since it resists fingerprinting and data tracking to a point and its essentially unmozilla'd firefox.
+I only use the finest browser. Which is, of course, Firefox. <br>
+In all seriousness, I use hardened version of Firefox as my web-browser. <br> 
+I may switch back to <a href="https://librewolf.net/" target="_blank" rel="noopener noreferrer">Librewolf</a> at some point since I dislike quite a few <hover-info>things<hover-info-text>e.g. The Firefox profiles</hover-info-text></hover-info> in Firefox.
+
+I've also been thinking of switching to a webkit based browser, since Firefox is a bit of a sinking ship, but I haven't heard of any good FOSS webkit browsers.
+
+<p><a href="https://nyxt.atlas.engineer/" target="_blank" rel="noopener noreferrer">Nyxt</a> also looks pretty cool as it's engine agnostic and hackable like Emacs.</p>
 
 </div>
 
 </div>
 </div>
+</div>
 
-## Other shit
+## Other stuff
 
 <div style="margin-top: -1.5em;">
 <div style="padding-left: 1em;">
@@ -94,7 +110,7 @@ In all seriousness I use librewolf as my web-browser since it resists fingerprin
 
 <div style="margin-top: -1em">
 
-- rust
+- Rust <sub style="padding-bottom: 5px">_(segfaults scare me)_</sub>
 
 {#each langData as {lang, info}}
 
@@ -130,17 +146,14 @@ In all seriousness I use librewolf as my web-browser since it resists fingerprin
 </div>
 
 </details>
-
-<details>
-<summary>More info</summary>
-
-<div style="margin-top: -1em">
-
-My name is Walter Hartwell White. I live at 308 Negra Arroyo Lane, Albuquerque, New Mexico, 87104. This is my confession. If you're watching this tape, I'm probably dead– murdered by my brother-in-law, Hank Schrader. Hank has been building a meth empire for over a year now, and using me as his chemist. Shortly after my 50th birthday, he asked that I use my chemistry knowledge to cook methamphetamine, which he would then sell using connections that he made through his career with the DEA. I was... astounded. I... I always thought Hank was a very moral man, and I was particularly vulnerable at the time – something he knew and took advantage of. I was reeling from a cancer diagnosis that was poised to bankrupt my family. Hank took me in on a ride-along and showed me just how much money even a small meth operation could make. And I was weak. I didn't want my family to go into financial ruin, so I agreed. Hank had a partner, a businessman named Gustavo Fring. Hank sold me into servitude to this man. And when I tried to quit, Fring threatened my family. I didn't know where to turn. Eventually, Hank and Fring had a falling-out. Things escalated. Fring was able to arrange – uh, I guess... I guess you call it a "hit" – on Hank, and failed, but Hank was seriously injured. And I wound up paying his medical bills, which amounted to a little over $177,000. Upon recovery, Hank was bent on revenge. Working with a man named Hector Salamanca, he plotted to kill Fring. The bomb that he used was built by me, and he gave me no option in it. I have often contemplated suicide, but I'm a coward. I wanted to go to the police, but I was frightened. Hank had risen to become the head of the Albuquerque DEA. To keep me in line, he took my children. For three months, he kept them. My wife had no idea of my criminal activities, and was horrified to learn what I had done. I was in hell. I hated myself for what I had brought upon my family. Recently, I tried once again to quit, and in response, he gave me this. [Walt points to the bruise on his face left by Hank in "Blood Money."] I can't take this anymore. I live in fear every day that Hank will kill me, or worse, hurt my family. All I could think to do was to make this video and hope that the world will finally see this man for what he really is.
-
-</div>
-
-</details>
 </div>
 
 </div>
+
+<style>
+p img {
+    margin-bottom: -0.25em;
+    /*padding-left: 0.5em;*/
+    height: 1.2em;
+}
+</style>

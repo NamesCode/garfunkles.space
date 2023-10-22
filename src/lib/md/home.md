@@ -1,7 +1,9 @@
 <script>
     import {finishedProjects, projects} from '$lib/contentData.js';
-    import Emacs from '$lib/assets/made_with_emacs.png';
+    import Neovim from '$lib/assets/made_with_neovim.gif';
     import Mac from '$lib/assets/made_with_mac.gif';
+    import Cookies from '$lib/assets/nocookie.gif';
+    import Webdesign from '$lib/assets/webdesign.gif';
     import Catppuccin from '$lib/assets/catppuccin_is_for_sex_havers.png';
     import Cat from '$lib/assets/cat.gif';
     import LocalNetwork from '$lib/assets/local_network.gif';
@@ -10,14 +12,16 @@
     var showContent = false;
 </script>
 
-Welcome to my minuscule and insignificant corner of the web! Please don't expect anything of quality from this website.
+Welcome to my minuscule and insignificant corner of the web!<br>
+Please don't expect anything of quality from this website.<br>
+Half of what you'll see here are the ramblings of a madman and projects i've tinkered with.
 
-Every thing this website links to is self-hosted (The majority locally) because:
+I self-host the majority of things linked to on this site because:
 
 <div style="margin-top: -1em;">
 
 - I like privacy
-- I am cheaper than Mr.Krabs 🦀
+- I am cheaper than Mr. Krabs 🦀
 
 <div style="margin-top: -0.8em;">
 
@@ -32,19 +36,20 @@ Every thing this website links to is self-hosted (The majority locally) because:
 
 <div style="display: flex; align-items: center;">
 
-<a href="/public_key.gpg" download="Garfunkles && Names GPG key.gpg">
+<a href="/public_key.gpg" download="Garfunkles/Names GPG key.gpg">
     <img src={LockNKey} alt="Lock'N'key" title="GPG" style="float: left;">
 </a>
 
-<p>If you use GPG you can download my GPG key <a href="/public_key.gpg" title="GPG Download" download="Garfunkles && Names GPG key.gpg">here</a></p>
+<p>If you use GPG you can download <a href="/public_key.gpg" title="GPG Download" download="Garfunkles/Names GPG key.gpg">my GPG key here</a></p>
 
 </div>
+
 
 ## Projects
 
 <div style="margin-top: -1em;">
 
-**Some projects i've done in the past:**
+**Some projects I've done in the past:**
 
 <hr>
 
@@ -76,13 +81,13 @@ Every thing this website links to is self-hosted (The majority locally) because:
 
 <div style="margin-top: -1em;">
 
-{description}
+{@html description}
 
 </div>
 {/each}
 
 <div style="margin-top: -1em; padding-bottom: 5px;">
-<sub style="color: var(--text); font-family: courier-new;">(I might not even do any of these)</sub>
+<sub style="color: var(--text); font-family: courier new;">(I might not even do any of these)</sub>
 </div>
 
 </div>
@@ -99,7 +104,9 @@ If you checkout my <a href="https://github.com/NamesCode">Github</a> and <a href
 </div>
 
 <img src="{Mac}" alt="Made with MacOS" height="35vh" title="UNIX > DOS">
-<a href="https://www.gnu.org/software/emacs/" target="_blank" rel="noopener noreferrer" title="The best code editor"><img src="{Emacs}" alt="Made with GNU Emacs" height="35vh"></a>
+<a href="https://neovim.io" target="_blank" rel="noopener noreferrer" title="The best code editor"><img src="{Neovim}" alt="Made with Neovim" height="35vh"></a>
+<img src="{Cookies}" alt="No cookies" height="35vh">
+<img src="{Webdesign}" alt="Webdesign is my passion :3" height="35vh">
 
 </div>
 
