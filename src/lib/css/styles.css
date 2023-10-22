@@ -1,19 +1,29 @@
+/* # Imports *
+/* Import prism theme for code highlighting */
+/* TODO: make prism theme look nicer and less dogshit */
 @import "prism-catppuccin-mocha.css";
 
+/* Imports the unsafe rockwell font */
 @font-face {
   font-family: "Rockwell";
   src: local("Rockwell"),
     url("$lib/assets/fonts/Rockwell.woff2") format("woff2");
 }
 
+
+/* # Colour variables */
 :root {
   --text: #bac2de;
+  --subtext0: #a6adc8;
+  --peach: #fab387;
   --maroon: #eba0ac;
   --red: #f38ba8;
   --mantle: #181825;
   --base: #1e1e2e;
 }
 
+/* # Edit the browser */
+/* Set selection colour */
 ::-moz-selection {
   /* Code for Firefox */
   background: var(--red);
@@ -25,23 +35,26 @@
   color: var(--base);
 }
 
+/* Set scrollbar colour */
 * {
   scrollbar-color: var(--red) var(--base);
 }
 
 ::-webkit-scrollbar {
-  /* code for safari because apple cant be assed to make scrollbar-colour the complete standard */
+  /* code for safari because apple cant be arsed to make scrollbar-colour the complete standard */
   width: 8px;
   height: 8px;
   background-color: var(--base);
 }
 
 ::-webkit-scrollbar-thumb {
-  /* code for safari because apple cant be assed to make scrollbar-colour the complete standard */
+  /* code for safari because apple cant be arsed to make scrollbar-colour the complete standard */
   background: var(--red);
   border-radius: 5px;
 }
 
+
+/* # Styles all of the text shown anywhere */
 a {
   color: var(--red);
   text-decoration: none;
@@ -73,20 +86,6 @@ summary {
   text-align: justify;
 }
 
-hr {
-  color: var(--text);
-  background-color: var(--text);
-  margin-left: 10px;
-  max-width: 90%;
-  height: 2.5px;
-  border-radius: 5px;
-  margin-top: -30px;
-}
-
-main img {
-  max-width: 100%;
-}
-
 h1,
 h2,
 h3 {
@@ -97,10 +96,33 @@ h3 {
     "Courier Bold", serif;
 }
 
+
+/* Awful code for the title underlining 
+ * TODO: Improve this */
+hr {
+  color: var(--text);
+  background-color: var(--text);
+  margin-left: 10px;
+  max-width: 90%;
+  height: 2.5px;
+  border-radius: 5px;
+  margin-top: -30px;
+}
+
+
+/* # Main content */
+/* Styling for all images that show up in the main content */
+main img {
+  max-width: 100%;
+}
+
+/* Add accent to all inputs e.g. red checkbox */
 input {
   accent-color: var(--maroon);
 }
 
+/* Main content card 
+ * The black box around text. hovers in the centre. */
 .card {
   background-color: var(--mantle);
   /* border: 2.5px solid var(--red); */
@@ -109,6 +131,7 @@ input {
   float: left;
 }
 
+/* formats the main page content */
 .content {
   max-width: 80%;
   margin: auto;
@@ -119,6 +142,7 @@ input {
   padding-top: 8px;
 }
 
+/* Styling for page header and it's image */
 .heading {
   padding-top: 1vw;
 }
@@ -129,6 +153,33 @@ input {
   float: left;
 }
 
+/* # Custom tags-ish */
+/* Hover info styling. also a tooltip (Custom tag established since sveltekit does funny JS magic) */
+ hover-info {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--peach);
+  color: var(--peach);
+ }
+
+hover-info hover-info-text {
+  visibility: hidden;
+  text-align: center; 
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border: 2.5px double var(--subtext0);
+  background-color: var(--base);
+  color: var(--text);
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+hover-info:hover hover-info-text {
+  visibility: visible;
+}
+
+/* # responsive design for mobile */
 @media only screen and (max-width: 1080px) {
   #side-panel {
     display: none;
