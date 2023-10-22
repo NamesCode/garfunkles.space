@@ -1,5 +1,6 @@
 <script>
     import {finishedProjects, projects} from '$lib/contentData.js';
+
     import Neovim from '$lib/assets/made_with_neovim.gif';
     import Mac from '$lib/assets/made_with_mac.gif';
     import Cookies from '$lib/assets/nocookie.gif';
@@ -8,6 +9,7 @@
     import Cat from '$lib/assets/cat.gif';
     import LocalNetwork from '$lib/assets/local_network.gif';
     import LockNKey from '$lib/assets/retro-os-icons/keys3.png';
+    import AGPL from '$lib/assets/agplv3.gif';
     
     var showContent = false;
 </script>
@@ -107,6 +109,7 @@ If you checkout my <a href="https://github.com/NamesCode">Github</a> and <a href
 <a href="https://neovim.io" target="_blank" rel="noopener noreferrer" title="The best code editor"><img src="{Neovim}" alt="Made with Neovim" height="35vh"></a>
 <img src="{Cookies}" alt="No cookies" height="35vh">
 <img src="{Webdesign}" alt="Webdesign is my passion :3" height="35vh">
+<img src="{AGPL}" alt="AGPL-3.0" height="35vh" title="This website is licensed under AGPL-3.0">
 
 </div>
 
