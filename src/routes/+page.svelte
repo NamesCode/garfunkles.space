@@ -8,7 +8,7 @@
         <div class="card" id="main-panel">
         <div class="padded">
             <div class="heading">
-                <img src="{HeaderImage}" alt="PFP" height=90px width=90px>
+                <img src="{HeaderImage}" alt="BBC Micro" height=90px width=90px>
                 <h1>Home page</h1>
                 <hr>
             </div>
