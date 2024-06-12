@@ -1,5 +1,5 @@
 // Import the markdown files for each post
-const imports = import.meta.globEager("./*/+page.md");
+const imports = import.meta.globEager("$lib/articles/*.md");
 
 const posts = [];
 for (const path in imports) {

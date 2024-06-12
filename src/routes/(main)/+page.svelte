@@ -1,6 +1,6 @@
 <script>
- import HeaderImage from '$lib/assets/bbc_micro.gif';
- import Home from '$lib/md/home.md';
+  import HeaderImage from '$lib/assets/bbc_micro.gif';
+  import Home from './home.md';
 </script>
 
 <body>
