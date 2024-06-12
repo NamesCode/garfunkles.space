@@ -1,17 +1,16 @@
 <script>
-const birthday = new Date("2008/11/23"); 
-var ageDifMs = Date.now() - birthday;
-var ageDate = new Date(ageDifMs); // miliseconds from epoch
-var age = Math.abs(ageDate.getUTCFullYear() - 1970);
-
-import { langData, stuffIWantToDo, socials } from '$lib/contentData.js';
-import Mozilla from '$lib/assets/monazilla.gif';
-import Rust from '$lib/assets/original_ferris.svg';
-import Apple from '$lib/assets/apple_logo.svg';
-import NixOS from '$lib/assets/nixos_logo.svg';
-import VeryNix from '$lib/assets/verynix.png';
-import HateMS from '$lib/assets/hatems.gif';
-
+    const BIRTHDAY = new Date("2008/11/23"); 
+    let ageDifMs = Date.now() - BIRTHDAY;
+    let ageDate = new Date(ageDifMs); // miliseconds from epoch
+    let age = Math.abs(ageDate.getUTCFullYear() - 1970);
+    
+    import { langData, stuffIWantToDo, socials } from '$lib/contentData.js';
+    import Mozilla from '$lib/assets/88x31/monazilla.gif';
+    import Rust from '$lib/assets/original_ferris.svg';
+    import Apple from '$lib/assets/apple_logo.svg';
+    import NixOS from '$lib/assets/nixos_logo.svg';
+    import VeryNix from '$lib/assets/verynix.png';
+    import HateMS from '$lib/assets/88x31/hatems.gif';
 </script>
 
 # Hallo!

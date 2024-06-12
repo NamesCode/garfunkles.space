@@ -1,26 +1,35 @@
 <script>
- import About from '$lib/md/about.md';
- import HeaderImage from '$lib/assets/garfpfp.png'
-</script>
+export let data;
 
+    function getDate() {
+      const date = new Date(data.metadata.date);
+
+      const year = date.getFullYear();
+      const month = date.getMonth();
+      const day = date.getDate();
+
+      return year + "/" + month + "/" + day // conform to ISO-8601 date format yyyy-mm-dd
+    }
+</script>
 <body>
     <div style="display: flex; align-items: center; padding-bottom: 1.5vh;">
         <div class="card" id="main-panel">
         <div class="padded">
             <div class="heading">
-                <img src="{HeaderImage}" alt="PFP" height=90px width=90px>
-                <h1>About me</h1>
+                <img src="/favicon.png" alt="Favicon" height=90px width=90px>
+                <h1>{data.metadata.title}</h1>
                 <hr>
             </div>
             <div style="clear:both;"></div>
             <div class="content">
                <main>
-                    <About />
+                  <svelte:component this={data.content} />
                </main>
             </div>
         </div>
         </div>
     </div>
+     <p class="padded"><a href="">This article</a> © {getDate()} by <a href="/">Garfunkle</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p> 
     </body>
 
 <style>

@@ -1,17 +1,15 @@
 <script>
     import {finishedProjects, projects} from '$lib/contentData.js';
 
-    import Neovim from '$lib/assets/made_with_neovim.gif';
-    import Mac from '$lib/assets/made_with_mac.gif';
-    import Cookies from '$lib/assets/nocookie.gif';
-    import Webdesign from '$lib/assets/webdesign.gif';
+    import Neovim from '$lib/assets/88x31/made_with_neovim.gif';
+    import Mac from '$lib/assets/88x31/made_with_mac.gif';
+    import Cookies from '$lib/assets/88x31/nocookie.gif';
+    import Webdesign from '$lib/assets/88x31/webdesign.gif';
     import Catppuccin from '$lib/assets/catppuccin_is_for_sex_havers.png';
-    import Cat from '$lib/assets/cat.gif';
-    import LocalNetwork from '$lib/assets/local_network.gif';
+    import Cat from '$lib/assets/88x31/cat.gif';
+    import LocalNetwork from '$lib/assets/88x31/local_network.gif';
     import LockNKey from '$lib/assets/retro-os-icons/keys3.png';
-    import AGPL from '$lib/assets/agplv3.gif';
-    
-    var showContent = false;
+    import AGPL from '$lib/assets/88x31/agplv3.gif';
 </script>
 
 Welcome to my minuscule and insignificant corner of the web!<br>
