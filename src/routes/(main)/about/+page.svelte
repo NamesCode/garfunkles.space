@@ -1,7 +1,10 @@
 <script>
-  import About from './about.md';
+  import OGHead from '$lib/components/opengraph-head.svelte';
   import HeaderImage from '$lib/assets/garfpfp.png'
+  import About from './about.md';
 </script>
+
+<OGHead slug="/about" />
 
 <body>
     <div style="display: flex; align-items: center; padding-bottom: 1.5vh;">

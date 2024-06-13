@@ -1,7 +1,10 @@
 <script>
+  import OGHead from '$lib/components/opengraph-head.svelte';
   import HeaderImage from '$lib/assets/bbc_micro.gif';
   import Home from './home.md';
 </script>
+
+<OGHead />
 
 <body>
     <div style="display: flex; align-items: center; padding-bottom: 1.5vh;">
