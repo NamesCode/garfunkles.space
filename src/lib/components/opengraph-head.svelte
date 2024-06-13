@@ -2,7 +2,7 @@
   export let title = "Garfunkles.space"
   export let description =  "Hallo, This is the personal website for Name/Garfunkle. I wasted so much time making this so please at the very least look at the about page."
   export let slug = ""
-  export let image = "";
+  export let image = "/favicon.png";
 </script>
 
 <svelte:head>
