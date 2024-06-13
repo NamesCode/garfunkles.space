@@ -11,7 +11,7 @@ export async function load({ params }) {
     ); // Needs to be hardcoded in order to be a dynamic import
     metadata.coverImage = metadata.coverImage.default; // Sets the cover image to the imported path
   } else {
-    metadata.coverImage = "";
+    metadata.coverImage = "/favicon.png";
     metadata.coverImageAlt = "";
   }
 
