@@ -5,6 +5,10 @@
 </script>
 
 <svelte:head>
+  <!-- Please dont darken my site further-->
+  <meta name="darkreader-lock">
+  <meta name="darkreader" content="Piss off darkreader luv">
+
   <!--Favicon setup-->
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
