@@ -1,16 +1,21 @@
 <script>
-export let data;
+  import OGHead from '$lib/components/opengraph-head.svelte';
 
-    function getDate() {
-      const date = new Date(data.metadata.date);
+  export let data;
 
-      const year = date.getFullYear();
-      const month = date.getMonth();
-      const day = date.getDate();
+  function getDate() {
+    const date = new Date(data.metadata.date);
 
-      return year + "/" + month + "/" + day // conform to ISO-8601 date format yyyy-mm-dd
-    }
+    const year = date.getFullYear();
+    const month = date.getMonth();
+    const day = date.getDate();
+
+    return year + "/" + month + "/" + day // conform to ISO-8601 date format yyyy-mm-dd
+  }
 </script>
+
+<OGHead slug="/blog/{data.metadata.slug}" title="Garfunkles.space - {data.metadata.title}" description="{data.metadata.excerpt}" image="{data.metadata.coverImage}"/>
+
 <body>
     <div style="display: flex; align-items: center; padding-bottom: 1.5vh;">
         <div class="card" id="main-panel">

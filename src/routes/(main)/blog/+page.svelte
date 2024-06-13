@@ -1,7 +1,9 @@
 <script>
-    import attention from '$lib/assets/retro-os-icons/attention.png';
-    import { filteredPosts } from "$lib/postData.js";
+  import OGHead from '$lib/components/opengraph-head.svelte';
+  import { filteredPosts } from "$lib/postData.js";
 </script>
+
+<OGHead slug="/blog" />
 
  <div style="margin-top: 35vh; display: flex; align-items: center; padding-bottom: 1.5vh;"> 
     <div style="align-items: center; margin: auto; padding-left: 1em; padding-right: 1em;">
