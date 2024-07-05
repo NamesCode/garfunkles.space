@@ -1,6 +1,10 @@
 <script>
     import {finishedProjects, projects} from '$lib/contentData.js';
 
+    import CatppuccinWebring from '$lib/assets/88x31/ctp_webring.webp';
+    import WebringBack from '$lib/assets/webring_back.webp';
+    import WebringForward from '$lib/assets/webring_forward.webp';
+
     import Neovim from '$lib/assets/88x31/made_with_neovim.gif';
     import Mac from '$lib/assets/88x31/made_with_mac.gif';
     import Cookies from '$lib/assets/88x31/nocookie.gif';
@@ -16,21 +20,12 @@ Welcome to my minuscule and insignificant corner of the web!<br>
 Please don't expect anything of quality from this website.<br>
 Half of what you'll see here are the ramblings of a madman and projects i've tinkered with.
 
-I self-host the majority of things linked to on this site because:
-
-<div style="margin-top: -1em;">
-
-- I like privacy
-- I am cheaper than Mr. Krabs 🦀
-
 <div style="margin-top: -0.8em;">
 
 <img src={LocalNetwork} alt="Local Network">
 <a href="https://www.youtube.com/watch?v=u0-szsoiWcQ" target="_blank" rel="noopener noreferrer">
     <img src={Cat} height=31vh alt="Cat" title="Meow">
 </a>
-
-</div>
 
 </div>
 
@@ -44,6 +39,7 @@ I self-host the majority of things linked to on this site because:
 
 </div>
 
+<span class="webring"><a href="https://ctp-webr.ing/garfunkles.space/previous"><img src={WebringBack} alt="An 88x32 of the Catppuccin webring."></a><a href="https://ctp-webr.ing/"><img src={CatppuccinWebring} alt="An 88x32 of the Catppuccin webring."></a><a href="https://ctp-webr.ing/garfunkles.space/next"><img src={WebringForward} alt="A forward arrow button for moving through webrings"></a></span>
 
 ## Projects
 
@@ -61,7 +57,7 @@ I self-host the majority of things linked to on this site because:
 
 <div style="margin-top: -1em;">
 
-{description}
+{@html description}
 
 </div>
 
@@ -98,7 +94,7 @@ I self-host the majority of things linked to on this site because:
 
 <img src="{Catppuccin}" alt="Catppuccin is for sex havers" title="This statement is entirely true and has been fact checked by true American patriots" height="50vh" style="float: left;">
 
-<p>I am one of the current maintainers for <a href="https://github.com/catppuccin/emacs">Catppuccin Emacs</a>.<br>
+<p>I was one of the current maintainers for <a href="https://github.com/catppuccin/emacs">Catppuccin Emacs</a>.<br>
 If you checkout my <a href="https://github.com/NamesCode">Github</a> and <a href="https://gitlab.com/NamesCode">Gitlab</a> profiles you can look throught my contributions. I will highlight the big ones here.</p>
 
 </div>
@@ -117,6 +113,9 @@ margin-top: -1em;
 margin-left: -0.2em
 }
 img {
-padding-right: 0.25em;
+    padding-right: 0.25em;
+}
+.webring img {
+    padding: 0.05rem;
 }
 </style>

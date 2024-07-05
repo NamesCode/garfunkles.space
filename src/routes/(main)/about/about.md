@@ -42,7 +42,7 @@ Studying for <hover-info>GCSE's<hover-info-text> Computer science, product desig
 
 <div style="padding-bottom: 0.1em;">
 
-## What I use <sub style="font-size: 0.3em;">(I have no clue what I'm meant to put on this website so this filler will have to do)</sub>
+## What I use <sub style="font-size: 0.3em;">(I have no clue what I'm meant to put on this website, so this filler will have to do)</sub>
 
 <hr style="margin-top: -1.3em; margin-left: -0.1em;">
 
@@ -77,7 +77,7 @@ I daily drive <hover-info>macOS<hover-info-text>However it has been hardened usi
 
 <div style="margin-top: -1em">
 
-I don't really have a language of choice, I will just go with whatever is easiest or that I want to use. However, I am quite fond of Rust.
+I don't really have a language of choice, I will often go with whatever is easiest or that I want to use. However, I frequently use Rust for my projects.
 
 </div>
 
@@ -89,9 +89,7 @@ I only use the finest browser. Which is, of course, Firefox. <br>
 In all seriousness, I use hardened version of Firefox as my web-browser. <br> 
 I may switch back to <a href="https://librewolf.net/" target="_blank" rel="noopener noreferrer">Librewolf</a> at some point since I dislike quite a few <hover-info>things<hover-info-text>e.g. The Firefox profiles</hover-info-text></hover-info> in Firefox.
 
-I've also been thinking of switching to a webkit based browser, since Firefox is a bit of a sinking ship, but I haven't heard of any good FOSS webkit browsers.
-
-<p><a href="https://nyxt.atlas.engineer/" target="_blank" rel="noopener noreferrer">Nyxt</a> also looks pretty cool as it's engine agnostic and hackable like Emacs.</p>
+I've also been thinking of switching to a webkit based browser but I haven't heard of any good FOSS webkit browsers yet.
 
 </div>
 

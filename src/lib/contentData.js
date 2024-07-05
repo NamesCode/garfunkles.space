@@ -60,31 +60,31 @@ export const socials = [
     name: "garfunklemd",
     href: "https://discord.com/users/972304699149676564",
   },
+  {
+    type: "Fedi",
+    name: "@Name@labyrinth.zone",
+    href: "https://labyrinth.zone/Name",
+  },
 ];
 
 export const finishedProjects = [
   {
     project: "Garfunkles.space",
     description:
-      "This awful website has taken me far to long to make and go live, with many hiccups along the way. It's meant to have an early internet vibe but I don't really think I pulled it off. This website still isn't finished and any feedback on how I could improve it would be greatly appreciated!",
-  },
-];
-
-export const projects = [
-  {
-    project: "Matric (Name is WIP)",
-    description:
-      "<p>The goal for this is to have a cross platform chat app that can interact with multiple standard chat protocols like matrix, irc, XMPP, Revolt. Started originally for SvelteHack but I couldn't complete it in time. (feel free to suggest names ♥)</p>",
-  },
-  {
-    project: "Some jackbox clone",
-    description:
-      "<p>I played jackbox with some friends and instead of actually buying it, I decided to make a far crappier version of it. <s style='font-size: 0.75em;'>I'm going to experiment with Go and use it for the backend. I will also tryout a different frontend framework (React maybe 👀) since only using Svelte won't broaden my knowledge.</s><strong style='font-size: 1.14em;'><br> SVELTEKIT BABYYYYYY</strong></p>",
+      "<p>This awful website has taken me far to long to make and go live, with many hiccups along the way. It's meant to have an early internet vibe but I don't really think I pulled it off. This website still isn't finished and any feedback on how I could improve it would be greatly appreciated!</p>",
   },
   {
     project: "Simple app for kaemojis",
     description:
       "<p>I personally prefer emoticons to emojis and find it annoying to open a browser just to go to <a href='https://kaomoji.ru/en/'>http://kaomoji.ru/</a> so I thought of making a simple app for it using egui which can be opened with a single key press.<br><sub>of course once I start this the website goes down (￣ ￣|||)</sub></p>",
+  },
+];
+
+export const projects = [
+  {
+    project: "Linelapse",
+    description:
+      "<p>I find screen recording for code timelapses to be an overly cumbersome process so I've started building a tool that takes in a text input and renders it to a timelapse video. The main usage of this would be to feed it the results of <code>$ diff -u file1 file2</code> and have it produce a timelapse of all the file changes as an mp4. I've already started working on this project and I plan on releasing it under a Common clause BSD 3.0 license.</p>",
   },
 ];
 

@@ -86,6 +86,13 @@ summary {
   text-align: justify;
 }
 
+code {
+  color: var(--subtext0);
+  background-color: var(--mantle);
+  border: 0.1em dashed;
+  border-color: var(--subtext0);
+}
+
 h1,
 h2,
 h3 {
