@@ -7,7 +7,7 @@ export async function load({ params }) {
 
   if (metadata.showImage) {
     metadata.coverImage = await import(
-      `../../../../lib/articles/${metadata.slug}/cover_image.webp`
+      `../../../../lib/articles/${metadata.slug}.webp`
     ); // Needs to be hardcoded in order to be a dynamic import
     metadata.coverImage = metadata.coverImage.default; // Sets the cover image to the imported path
   } else {
