@@ -34,7 +34,7 @@
         </div>
         </div>
     </div>
-     <p class="padded"><a href="">This article</a> © {getDate()} by <a href="/">Garfunkle</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p> 
+     <p class="padded"><a href="">This {data.metadata.type.toLowerCase()}</a> © {getDate()} by <a href="/">Garfunkle</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p> 
     </body>
 
 <style>

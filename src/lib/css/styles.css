@@ -86,7 +86,7 @@ summary {
   text-align: justify;
 }
 
-code {
+p code {
   color: var(--subtext0);
   background-color: var(--mantle);
   border: 0.1em dashed;

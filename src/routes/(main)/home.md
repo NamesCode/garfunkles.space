@@ -5,6 +5,7 @@
     import WebringBack from '$lib/assets/webring_back.webp';
     import WebringForward from '$lib/assets/webring_forward.webp';
 
+    import Me from '$lib/assets/88x31/garfunkles-space.webp';
     import Neovim from '$lib/assets/88x31/made_with_neovim.gif';
     import Mac from '$lib/assets/88x31/made_with_mac.gif';
     import Cookies from '$lib/assets/88x31/nocookie.gif';
@@ -18,10 +19,13 @@
 
 Welcome to my minuscule and insignificant corner of the web!<br>
 Please don't expect anything of quality from this website.<br>
-Half of what you'll see here are the ramblings of a madman and projects i've tinkered with.
+Half of what you'll see here are the ramblings of a madman and projects I've tinkered with.
+
+If you'd like to link to my page, firstly thanks ♡(｡-ω-), secondly click [here!](/blog/link-me)
 
 <div style="margin-top: -0.8em;">
 
+<img src={Me} alt="My 88x31 for my website!" style="width: 88px">
 <img src={LocalNetwork} alt="Local Network">
 <a href="https://www.youtube.com/watch?v=u0-szsoiWcQ" target="_blank" rel="noopener noreferrer">
     <img src={Cat} height=31vh alt="Cat" title="Meow">
