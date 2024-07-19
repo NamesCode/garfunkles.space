@@ -15,6 +15,7 @@
     import LocalNetwork from '$lib/assets/88x31/local_network.gif';
     import LockNKey from '$lib/assets/retro-os-icons/keys3.png';
     import AGPL from '$lib/assets/88x31/agplv3.gif';
+    import AI from '$lib/assets/88x31/stop_feeding_ai.webp';
 </script>
 
 Welcome to my minuscule and insignificant corner of the web!<br>
@@ -103,17 +104,20 @@ If you checkout my <a href="https://github.com/NamesCode">Github</a> and <a href
 
 </div>
 
-<img src="{Mac}" alt="Made with MacOS" height="35vh" title="UNIX > DOS">
+<img src="{Mac}" alt="Made with MacOS" title="UNIX > DOS">
 <a href="https://neovim.io" target="_blank" rel="noopener noreferrer" title="The best code editor">
-  <img src="{Neovim}" alt="Made with Neovim" height="35vh">
+  <img src="{Neovim}" alt="Made with Neovim">
 </a>
-<img src="{Cookies}" alt="No cookies" height="35vh">
-<a href="https://neocities.org" target="_blank" rel="noopener noreferrer" title="Make a damn website please!!">
-  <img src="{Webdesign}" alt="Webdesign is my passion :3" height="35vh">
+<img src="{Cookies}" alt="No cookies">
+<a href="https://neocities.org" target="_blank" rel="noopener noreferrer">
+  <img src="{Webdesign}" alt="Webdesign is my passion :3"  title="Make a damn website please!!">
 </a>
-<img src="{AGPL}" alt="AGPL-3.0" height="35vh" title="This website is licensed under AGPL-3.0">
+<img src="{AGPL}" alt="AGPL-3.0" title="This website is licensed under AGPL-3.0">
 <a href="https://aubrey.pet/" target="_blank" rel="noopener noreferrer">
-  <img src="https://aubrey.pet/buttons/aubreyrs.png" alt="The 88x31 of aubrey" height="35vh"/>
+  <img src="https://aubrey.pet/buttons/aubreyrs.png" alt="The 88x31 of aubrey"/>
+</a>
+<a href="https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/" target="_blank" rel="noopener noreferrer">
+  <img src="{AI}" alt="Stop feeding the AI's" title="Only AI's you should feed is your own (or maybe an opensource one using licensable materials)">
 </a>
 <br>
 <sub>If you have a website with a 88x31, please send it to me and I may add you here &lt3</sub>
