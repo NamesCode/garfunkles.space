@@ -87,7 +87,7 @@ If you'd like to link to my page, firstly thanks ♡(｡-ω-), secondly click [h
 {/each}
 
 <div style="margin-top: -1em; padding-bottom: 5px;">
-<sub style="color: var(--text); font-family: courier new;">(I might not even do any of these)</sub>
+<sub>(I might not even do any of these)</sub>
 </div>
 
 </div>
@@ -104,10 +104,19 @@ If you checkout my <a href="https://github.com/NamesCode">Github</a> and <a href
 </div>
 
 <img src="{Mac}" alt="Made with MacOS" height="35vh" title="UNIX > DOS">
-<a href="https://neovim.io" target="_blank" rel="noopener noreferrer" title="The best code editor"><img src="{Neovim}" alt="Made with Neovim" height="35vh"></a>
+<a href="https://neovim.io" target="_blank" rel="noopener noreferrer" title="The best code editor">
+  <img src="{Neovim}" alt="Made with Neovim" height="35vh">
+</a>
 <img src="{Cookies}" alt="No cookies" height="35vh">
-<img src="{Webdesign}" alt="Webdesign is my passion :3" height="35vh">
+<a href="https://neocities.org" target="_blank" rel="noopener noreferrer" title="Make a damn website please!!">
+  <img src="{Webdesign}" alt="Webdesign is my passion :3" height="35vh">
+</a>
 <img src="{AGPL}" alt="AGPL-3.0" height="35vh" title="This website is licensed under AGPL-3.0">
+<a href="https://aubrey.pet/" target="_blank" rel="noopener noreferrer">
+  <img src="https://aubrey.pet/buttons/aubreyrs.png" alt="The 88x31 of aubrey" height="35vh"/>
+</a>
+<br>
+<sub>If you have a website with a 88x31, please send it to me and I may add you here &lt3</sub>
 
 </div>
 
