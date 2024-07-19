@@ -79,6 +79,9 @@ ol {
 }
 
 p,
+sub,
+th,
+td,
 details,
 summary {
   color: var(--text);
@@ -116,6 +119,22 @@ hr {
   margin-top: -30px;
 }
 
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+table th{
+    border: 2px solid var(--subtext0);
+    padding-left: 0.25em;
+    padding-right: 0.5em;
+}
+
+table td {
+    border: 1px solid var(--subtext0);
+    padding-left: 0.25em;
+    padding-right: 0.5em;
+}
 
 /* # Main content */
 /* Styling for all images that show up in the main content */
