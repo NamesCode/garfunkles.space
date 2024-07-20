@@ -24,13 +24,13 @@ If you'd like to link to my site using this you can use the provided snippet bel
 
 ```html
 <a href="https://garfunkles.space" target="_blank" rel="noopener noreferrer">
-    <img src="https://garfunkles.space/88x32.webp" style="width: 88px" alt="An 88x31 showing a anthropromorthic cat head, the male love male pride flag, the femboy pride flag. It bears the text: garfunkles.space" title="© Name / Garfunkle">
+    <img src="https://garfunkles.space/88x32.webp" style="width: 88px" alt="An 88x31 showing a anthropromorthic cat head, the male love male pride flag, the femboy pride flag. It bears the text: garfunkles.space" title="Teleporter to garfunkles.space :3">
 </a>
 ```
 
 Rendered too:
 <a href="https://garfunkles.space" target="_blank" rel="noopener noreferrer">
-    <img src="/88x32.webp" style="width: 88px" alt="An 88x31 showing a anthropromorthic cat head, the male love male pride flag, the femboy pride flag. It bears the text: garfunkles.space" title="© Name / Garfunkle">
+    <img src="/88x32.webp" style="width: 88px" alt="An 88x31 showing a anthropromorthic cat head, the male love male pride flag, the femboy pride flag. It bears the text: garfunkles.space" title="Teleporter to garfunkles.space :3">
 </a>
 
 If you choose to make your own using my 88x32, please link to either the homepage or about page.
