@@ -16,6 +16,7 @@
     import LockNKey from '$lib/assets/retro-os-icons/keys3.png';
     import AGPL from '$lib/assets/88x31/agplv3.gif';
     import AI from '$lib/assets/88x31/stop_feeding_ai.webp';
+    import Isabel from '$lib/assets/88x31/frenz/isabel_nix-gf.gif';
 </script>
 
 Welcome to my minuscule and insignificant corner of the web!<br>
@@ -118,6 +119,9 @@ If you checkout my <a href="https://github.com/NamesCode">Github</a> and <a href
 </a>
 <a href="https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/" target="_blank" rel="noopener noreferrer">
   <img src="{AI}" alt="Stop feeding the AI's" title="Only AI's you should feed is your own (or maybe an opensource one using licensable materials)">
+</a>
+<a href="https://isabelroses.com/" target="_blank" rel="noopener noreferrer">
+  <img src="{Isabel}" alt="'I am Nix GF' an 88x31 to isabel roses site">
 </a>
 <br>
 <sub>If you have a website with a 88x31, please send it to me and I may add you here &lt3</sub>
