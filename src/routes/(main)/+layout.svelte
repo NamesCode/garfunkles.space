@@ -31,6 +31,8 @@
   <meta name="theme-color" content="#ffffff">
 </svelte:head>
 
+<h3 style="background-color: red;">THIS SITE IS CURRENTLY BEING REWRITTEN. EXPECT CONTENT TO CHANGE DRASTICALLY.</h3>
+
 <Navbar />
 
 <style>
