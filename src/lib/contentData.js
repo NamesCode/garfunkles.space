@@ -87,6 +87,11 @@ export const projects = [
       "<p>I find screen recording for code timelapses to be an overly cumbersome process so I've started building a tool that takes in a text input and renders it to a timelapse video. The main usage of this would be to feed it the results of <code>$ diff -u file1 file2</code> and have it produce a timelapse of all the file changes as an mp4. I've already started working on this project and I plan on releasing it under a Common clause BSD 3.0 license.</p>",
   },
   {
+    project: "Vel / Velox",
+    description:
+      "<p>Whilst I love Svelte syntax, I find myself wanting to use it without the JS bloat and within my Rust backends. Because of this I've started work on a Svelte-like templating engine in Rust. C-FFI will be introduced eventually.</p>",
+  },
+  {
     project: "TUI based game engine (Name undecided)",
     description:
       "<p>I'm unaware of any simple game engines (This is more of a framework) for creating games for the terminal so I think it'd be fun to make something to do so. I want it to provide templates for output, easy to use bindings for audio playback and the ability to display images to the terminal either as text or using new image api's. I'll probably write a core framework for use in Rust and library interfacing then make a full app using egui or iced which provides node based editing for scenes and scripting with Lua.</p>",
@@ -99,7 +104,7 @@ export const projects = [
   {
     project: "The wired (Name undecided, sadly can't use the wired lmao)",
     description:
-      "<p>Since Zuccie boy and the rest of the rich twats are pushing for VR, I thought it'd be funny to make an FOSS way to view the <hover-info>potential metaverse<hover-info-text>I doubt this will ever be a thing but it gets hype so hey who know ig lmfao</hover-info-text></hover-info> in a style similar to webbrowsers. I'm going to design it so that the wired engine will implement some basic functionality like movement jumping and collisions and the server will send the models (ideally low pixel count as that'd be awful to work with hug ones) and wasm code that interacts with the browser. For each connection to a server a 2 way TCP (or QUIC) socket will be established, with the wasm able to send data over to the server with it. shaders and stuff may be implemented in future but atm I just wanna have a nice base to work with.</p>",
+      "<p>Since Big Zuc and the rest of big tech are pushing for VR, I thought it'd be funny to make an FOSS way to view the <hover-info>unlikely metaverse<hover-info-text>I doubt this will ever be a thing but it gets hype so hey who knows lmao</hover-info-text></hover-info> in a style similar to webbrowsers. I'm going to design it so that the wired engine will implement some basic functionality like movement jumping and collisions and the server will send the models (ideally low poly as that'd be awful to work with bulky ones) and wasm code that interacts with the browser but it's just an idea.</p>",
   },
 ];
 
