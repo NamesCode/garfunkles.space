@@ -1,0 +1,58 @@
+<Template vl-give-head="" vl-sidebar-slot="">
+  <div class="card" id="main-panel">
+    <main class="padded">
+      <article>
+        <header>
+          <h1>About</h1>
+          <hr>
+        </header>
+        <p>
+          Heyo! thanks for coming to my minuscule corner of the internet!<br>
+          I'm a {age} year old software developer (hobbyist?) from Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿<br>
+          My interests are typically a wide area of things ranging from tinkering with embedded projects, DevOPs and
+          computer science to 3d design and science.
+        </p>
+        <p>
+          I'm currently studying for <span class="hover-info">GCSE's<span class="hover-info-text"> Computer science,
+              product design and triple science</span></span> (.┰ω┰.)
+        </p>
+        <!--TODO: Come up with more content qwqqq-->
+        <article class="contact">
+          <h3>Contact me!</h3>
+          <ul>
+            <li>Email: <a href="mailto:lasagna@garfunkles.space">lasagna@garfunkles.space</a></li>
+            <li>Github: <a href="https://github.com/NamesCode">NamesCode</a></li>
+            <li>Discord: <a href="https://discord.gg/yNAZSJqQXE">garfunklemd (This links to my server)</a></li>
+            <li>Fedi: <a href="https://labyrinth.zone/Name">@Name@labyrinth.zone</a></li>
+          </ul>
+        </article>
+      </article>
+    </main>
+
+    <style>
+      .hover-info {
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: var(--peach);
+        color: var(--peach);
+      }
+
+      .hover-info .hover-info-text {
+        visibility: hidden;
+        text-align: center;
+        padding: 0.2em 0.5em 0.2em 0.5em;
+        border: 2.5px double var(--subtext0);
+        background-color: var(--base);
+        color: var(--text);
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+
+      .hover-info:hover .hover-info-text {
+        visibility: visible;
+      }
+    </style>
+  </div>
+</Template>

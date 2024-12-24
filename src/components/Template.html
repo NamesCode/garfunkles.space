@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{selected-lang}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <Opengraph-head vl-title="Garfunkles.space"
+    vl-description="Heyo, this is the personal site for Garfunkle / Name. WARN: Contains rants, furries, stupid projects and ancient gifs."
+    vl-image="favicon.png" vl-slug=""></Opengraph-head>
+
+  {give-head}
+
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg">
+  <link rel="shortcut icon" href="/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <nav>
+    <p id="navbar-link">
+      <a href="/">Home</a> | <a href="/about">About</a> |<a href="/Blog">Blog</a> | <a
+        href="https://git.garfunkles.space">Git</a> | <a href="/donate">Donate</a>
+    </p>
+  </nav>
+  <Sidebar>{sidebar-slot}</Sidebar>
+  {slot}
+  <footer>
+    <p>Last updated: <time datetime="{build-date}">{build-date-pretty}</time></p>
+    <p>Copyright of Name. Licensed under <a href="/MPL-2.0.txt">MPL 2.0</a> for code and <a
+        href="/CC-BY-SA-4.0.txt">CC-BY-SA-4.0</a> for articles and assets.</p>
+    <address>Contact me here: <a href="mailto:lasagna@garfunkles.space">lasagna@garfunkles.space</a></address>
+    <a href="https://git.garfunkles.space/garfunkles-space">Source code for this site</a>
+  </footer>
+</body>
+
+</html>

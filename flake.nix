@@ -19,7 +19,7 @@
         nativeBuildInputs = with pkgs; [
           # Build tools
           dart-sass
-          pandoc-cli
+          pandoc
           # velox
 
           # LSPs

@@ -1,0 +1,222 @@
+<Template vl-give-head="" vl-sidebar-slot="">
+  <div class="card" id="main-panel">
+    <main class="padded">
+      <article>
+        <header>
+          <h1>Home page</h1>
+          <hr>
+        </header>
+        <p>Welcome to my minuscule and insignificant corner of the web!<br>
+          Please don’t expect anything of quality from
+          this website.<br>
+          Half of what you’ll see here are the ramblings of a madman and projects I’ve tinkered with.
+        </p>
+        <p>If you’d like to link to my page, firstly thanks ♡(｡-ω-), secondly click <a href="/blog/link-me">here!</a>
+        </p>
+        <a href="/" role="button">
+          <img src="/assets/88x31/garfunkles-space.webp" alt="My 88x31 for my website!" style="width: 88px;">
+        </a>
+        <img src="/assets/88x31/local_network.gif" alt="Screw y'all I'm going back to my local network.">
+        <a href="https://www.youtube.com/watch?v=u0-szsoiWcQ" role="button">
+          <img src="/assets/88x31/cat.gif" alt="No time spent with a cat is wasted." title="Meow">
+        </a>
+        <span style="display: flex; align-items: center;">
+          <a href="/git.pub" download="names_git_key.pub" title="Git public key download" role="button">
+            <img src="/assets/retro-os-icons/keys3.png" alt="Lock'N'key">
+          </a>
+          <p>You can download <a href="/git.pub" title="Git public key download" download="names_git_key.pub">my git
+              public key here</a></p>
+        </span>
+        <article class="projects">
+          <header>
+            <h3>Projects</h3>
+            <p>If any of these projects interest or aid you, please <a href="/donate">consider making a
+                donation!</a><br>
+              It would help me keep the lights on for any of my services + you'll be featured on the donations page
+              along
+              with what your donation went towards &lt;3</p>
+          </header>
+          <div class="finished">
+            <details>
+              <summary>
+                <header>
+                  <h4>Garfunkles.space</h4>
+                  <p>Your viewing it now! <i>right?</i></p>
+                </header>
+              </summary>
+              This awful website has taken me far to long to make and go live, with many hiccups along the way.
+              It's meant to have an early internet vibe but I don't really think I pulled it off. This website still
+              isn't finished and any feedback on how I could improve it would be greatly appreciated!
+            </details>
+            <details>
+              <summary>
+                <header>
+                  <h4>Simple app for kaemojis</h4>
+                  <p>Be gay in style. <b>Now</b> with half the effort!</p>
+                </header>
+              </summary>
+              <p>I personally prefer emoticons to emojis and find it annoying to open a browser just to go to <a
+                  href='https://kaomoji.ru/en/'>http://kaomoji.ru/</a> so I thought of making a simple app for it
+                using egui which can be opened with a single key press.<br><sub>of course once I start this the
+                  website goes down (￣ ￣|||)</sub></p>
+            </details>
+          </div>
+          <div class="wip">
+            <details>
+              <summary>
+                <header>
+                  <h4>Vel</h4>
+                  <p>A web templating library inspired by Svelte</p>
+                </header>
+              </summary>
+              <p>Whilst I love Svelte syntax, I find myself wanting to use it without the JS bloat and within my Rust
+                backends. Because of this I've started work on a Svelte-like templating engine in Rust. C-FFI will be
+                introduced eventually.</p>
+            </details>
+            <details>
+              <summary>
+                <header>
+                  <h4>Velox</h4>
+                  <p>A CLI SSG utilising Vel, focused on the shell</p>
+                </header>
+              </summary>
+              <p>Velox serves as a cli frontend for Vel (It's actually what I use to build this website ^^). It's
+                intended for use in build scripts.</p>
+            </details>
+            <details>
+              <summary>
+                <header>
+                  <h4>pins-and-badges.com</h4>
+                  <p>An ecommerce site for artists and pin lovers alike</p>
+                </header>
+              </summary>
+              <p>I run a small custom pin manufacturing thing and I'm planning on creating a website for it so that I
+                can ship globally ^^. The website will be like your average ecommerce with an area where you can
+                browse premade pins, wholesale enamel pins and design a custom 25mm badge. Pins will hopefully be
+                shipped world wide with payments handled by stripe. We will not hold any user data besides records of
+                purchases and custom badge order ids, these invoices and designs will be stored anonymously with the
+                user having to remember their order id. We already have the domain for it! <a
+                  href='http://pins-and-badges.com'>http://pins-and-badges.com</a></p>
+            </details>
+            <details>
+              <summary>
+                <header>
+                  <h4>TUI based game engine (Name undecided)</h4>
+                  <p>For when the terminals cool</p>
+                </header>
+              </summary>
+              <p>I'm unaware of any simple game engines (This is more of a framework) for creating games for the
+                terminal so I think it'd be fun to make something to do so. I want it to provide templates for output,
+                easy to use bindings for audio playback and the ability to display images to the terminal either as
+                text or using new image api's. I'll probably write a core framework for use in Rust and library
+                interfacing then make a full app using egui or iced which provides node based editing for scenes and
+                scripting with Lua.</p>
+            </details>
+            <details>
+              <summary>
+                <header>
+                  <h4>The wired (Name undecided, sadly can't use the wired lmao)</h4>
+                  <p><i>soyjack</i>: Woah, Lain and metaverse. WOWZERS!</p>
+                </header>
+              </summary>
+              <p>Since Big Zuc and the rest of big tech are pushing for VR, I thought it'd be funny to make an FOSS
+                way to view the <span class="hover-info">potential metaverse<span class="hover-info-text">I doubt this
+                    will ever be a thing but it
+                    gets hype so hey who know ig lmfao</span></span> in a style similar to
+                webbrowsers. I'm going to design it so that the wired engine will implement some basic functionality
+                like movement jumping and collisions and the server will send the models (ideally low poly as that'd
+                be awful to work with bulky ones) and wasm code that interacts with the browser but it's just an idea.
+              </p>
+            </details>
+            <details>
+              <summary>
+                <header>
+                  <h4>An ethical AD service (Again, no name yet)</h4>
+                  <p>It'll work, <i>surely? (clueless)</i></p>
+                </header>
+              </summary>
+              <p>Whilst I <strong><em>HATE</em></strong> adverts, I think it'd be fun to have a open source ad agency
+                that focuses on privacy and promoting interesting content. For site developers, it could offer the
+                option to filter adverts to specific criteria e.g. retro 90s theme, matches to their sites colour
+                pallete, only opensource projects, etc. It could offer free ad spaces for those who signup and select
+                opensource projects, whilst also helping fund webdevs.</p>
+            </details>
+            <details>
+              <summary>
+                <header>
+                  <h4>A search engine</h4>
+                  <p>Google but not successful. It also doesn't work.</p>
+                </header>
+              </summary>
+              <p>I wanna make a search engine that promotes smaller sites just as much as the bigger ones, focusing on
+                having higher quality results and light webpages.</p>
+            </details>
+          </div>
+        </article>
+        <article>
+          <h3>Contributions</h3>
+          <img src="/assets/catppuccin_is_for_sex_havers.png" alt="Catppuccin is for sex havers"
+            title="This statement is entirely true and has been fact checked by true American patriots" height="50"
+            style="float: left;">
+
+          <p>I was one of the maintainers for <a href="https://github.com/catppuccin/emacs">Catppuccin
+              Emacs</a> from
+            <a href="https://github.com/catppuccin/emacs/commit/6aa060373e5d108a3f28fe4d03f75dc82280beb3">
+              <time datetime="2022-10-12">October 12th 2022</time>
+            </a> to <a href="https://github.com/catppuccin/emacs/commit/2f15c7c7cca7834b072bb26421a2755a67786899">
+              <time datetime="2024-06-07">June 7th 2024</time>
+            </a>.<br>
+            Admittedly, I don't believe I really contributed as much to to Catppuccin as I gained from being apart of
+            the
+            community.<br>
+            <a href="https://github.com/nyxkrage">Nyx</a> did the majority of the heavy lifting for the Catppuccin emacs
+            fork, doing the improved rewrite,<wbr> whereas I just acted in maintenance mode, merging pr's and editing
+            lines here and there; Nothing substancial.<br>
+            I feel though, from being in Catppuccin, I have been bettered both as a person and as a developer.<br> Going
+            from writing shoddy Python in Idle on Windows, being unaware of Unix and writing software properly, to where
+            I
+            am now of having enough competance with a computer to write my own applications and tools.<br>
+            Hell, I didn't even know how to make a website before Catppuccin.<br>
+            Whilst I can't owe everything towards then, I owe an unpayable debt and they will forever be a part of my
+            journey, not just as a developer but as a person overall.
+          </p>
+          <p>
+            If you checkout my <a href="https://github.com/NamesCode">Github</a> and <a
+              href="https://gitlab.com/NamesCode">Gitlab</a> profiles you can look throught my contributions. I will
+            highlight the big ones here.
+          </p>
+        </article>
+        <section>
+          <h3>88x31's</h3>
+          <!--TODO: Add 88x31's-->
+        </section>
+      </article>
+    </main>
+
+    <style>
+      .hover-info {
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: var(--peach);
+        color: var(--peach);
+      }
+
+      .hover-info .hover-info-text {
+        visibility: hidden;
+        text-align: center;
+        padding: 0.2em 0.5em 0.2em 0.5em;
+        border: 2.5px double var(--subtext0);
+        background-color: var(--base);
+        color: var(--text);
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+
+      .hover-info:hover .hover-info-text {
+        visibility: visible;
+      }
+    </style>
+  </div>
+</Template>
